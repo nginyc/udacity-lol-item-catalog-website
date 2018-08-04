@@ -6,7 +6,7 @@ import requests
 from config import GOOGLE_OAUTH_CLIENT_ID, GOOGLE_OAUTH_CLIENT_SECRET, APP_SECRET, \
   SQLITE_DB_URL
   
-from utils import upsert_user, get_item_categories, create_item, get_items
+from utils import upsert_user, get_item_categories, create_item, get_items, get_item
 from database import Database
 
 db = Database(SQLITE_DB_URL)
@@ -29,6 +29,17 @@ def items_page():
     title=(cat.name if cat is not None else 'All Items'),
     item_categories=item_categories,
     items=items
+  )
+
+@app.route('/items/<int:item_id>', methods=['GET'])
+def item_page(item_id):
+  db.connect()
+  item, item_categories = get_item(db.session, item_id)
+  db.disconnect()
+  return render_template(
+    'item.html', 
+    item_categories=item_categories,
+    item=item
   )
 
 @app.route('/items/create', methods=['GET'])
