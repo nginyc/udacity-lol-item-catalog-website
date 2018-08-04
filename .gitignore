@@ -1,0 +1,16 @@
+# VSCode config
+.vscode/
+
+# Vagrant temp files
+.vagrant/
+
+# Python temp files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Main config file
+config.py
+
+# SQLite DB file
+*.db

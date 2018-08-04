@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Health"
+  },
+  {
+    "name": "Magic Resist"
+  },
+  {
+    "name": "Health Regen"
+  },
+  {
+    "name": "Armor"
+  },
+  {
+    "name": "Damage"
+  },
+  {
+    "name": "Critical Strike"
+  },
+  {
+    "name": "Attack Speed"
+  },
+  {
+    "name": "Life Steal"
+  },
+  {
+    "name": "Ability Power"
+  },
+  {
+    "name": "Cooldown Reduction"
+  },
+  {
+    "name": "Mana"
+  },
+  {
+    "name": "Mana Regen"
+  },
+  {
+    "name": "Movement"
+  },
+  {
+    "name": "Consumables"
+  }
+]

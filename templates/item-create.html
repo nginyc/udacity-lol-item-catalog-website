@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block meta %}
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}
+
+{% block header %}
+<h1>League of Legends Item Catalog</h1> 
+{% endblock %}
+
+{% block main %}
+<h2>Add an Item</h2>   
+<form action="/items" method="POST">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" name="name" placeholder="Item Name..."/>
+  </div> 
+  <div class="form-group">
+    <label for="description">Description</label>
+    <textarea name="description" placeholder="Item Description..."></textarea>
+  </div>
+  <div class="form-group">
+    <label for="category_ids">Categories</label>
+    <select multiple name="category_ids">
+      {% for cat in item_categories %}
+      <option value={{cat.id}}>
+        {{cat.name}}
+      </option>
+      {% endfor %}
+    </select>
+  </div>
+  <div class="form-group">
+    <button type="submit">Save</button>
+  </div>
+</form>
+{% endblock %}
