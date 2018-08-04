@@ -1,11 +1,12 @@
-from flask import Flask, render_template, request, jsonify, make_response, session
+from flask import Flask, render_template, request, jsonify, make_response, session, \
+  redirect, url_for
 from google.oauth2 import id_token
 from google.auth.transport import requests as google_auth_requests
 import requests
 from config import GOOGLE_OAUTH_CLIENT_ID, GOOGLE_OAUTH_CLIENT_SECRET, APP_SECRET, \
   SQLITE_DB_URL
   
-from utils import upsert_user, get_item_categories, create_item
+from utils import upsert_user, get_item_categories, create_item, get_items
 from database import Database
 
 db = Database(SQLITE_DB_URL)
@@ -14,7 +15,21 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def index():
-  return render_template('index.html', google_oauth_client_id=GOOGLE_OAUTH_CLIENT_ID)
+  return redirect(url_for('items_page'))
+
+@app.route('/items', methods=['GET'])
+def items_page():
+  category_id = request.args.get('category_id')
+  db.connect()
+  item_categories = get_item_categories(db.session)
+  items, cat = get_items(db.session, category_id=category_id)
+  db.disconnect()
+  return render_template(
+    'items.html', 
+    title=(cat.name if cat is not None else 'All Items'),
+    item_categories=item_categories,
+    items=items
+  )
 
 @app.route('/items/create', methods=['GET'])
 def create_item_page():
