@@ -12,7 +12,7 @@ def get_items(session, category_id=None):
       raise Exception('Invalid category ID')
 
     items = session.query(Item) \
-      .join(ItemToItemCategory, Item.id == ItemToItemCategory.item_id) \
+      .join(ItemToItemCategory, ItemToItemCategory.item_id == Item.id) \
       .filter(ItemToItemCategory.item_category_id == category_id) \
       .all()
 

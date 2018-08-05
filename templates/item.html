@@ -11,10 +11,17 @@
 {% endblock %}
 
 {% block main %}
-<h2>{{item.name}}</h2>   
+<h2>{{item.name}}</h2> 
+{% if item.image_url %}
+<div>
+  <img src="{{item.image_url}}" />
+</div>
+{% endif %}   
 <div>
   {{item.description}}
 </div>
+<a href="{{ url_for('update_item_page', item_id=item.id) }}">Edit Item</a>
+<a href="{{ url_for('delete_item_page', item_id=item.id) }}">Delete Item</a>
 <div>
   <h3>Categories</h3>
   <ul>

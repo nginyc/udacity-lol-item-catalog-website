@@ -7,7 +7,7 @@ def get_item(session, item_id):
   item = session.query(Item).filter_by(id=item_id).first()
 
   cats = session.query(ItemCategory) \
-    .join(ItemToItemCategory, ItemCategory.id == ItemToItemCategory.item_id) \
+    .join(ItemToItemCategory, ItemToItemCategory.item_category_id == ItemCategory.id) \
     .filter(ItemToItemCategory.item_id == item_id) \
     .all()
 

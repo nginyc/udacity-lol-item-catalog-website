@@ -1,6 +1,6 @@
 from database import Item, ItemCategory, ItemToItemCategory
 
-def create_item(session, name, owner_id, description, category_ids):
+def create_item(session, name, owner_id, description, category_ids, image_url=None):
   item = session.query(Item).filter_by(name=name).first()
 
   if item is not None:
@@ -10,7 +10,7 @@ def create_item(session, name, owner_id, description, category_ids):
   if len(cats) != len(category_ids):
     raise Exception('Invalid category IDs!')
 
-  item = Item(name=name, description=description)
+  item = Item(name=name, description=description, image_url=image_url)
   session.add(item)
   session.commit()
 

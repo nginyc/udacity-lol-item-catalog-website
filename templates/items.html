@@ -14,13 +14,20 @@
 <h2>{{title}}</h2>   
 <nav>
   {% for cat in item_categories %}
-  <a href="/items?category_id={{cat.id}}">{{cat.name}}</a>
+  <a href="{{ url_for('items_page', category_id=cat.id) }}">{{cat.name}}</a>
   {% endfor %}
 </nav>
 <div>
-  {% for item in items %}
-  <a href="/items/{{item.id}}">{{item.name}}</a>
-  {% endfor %}
+  <ul>
+    {% for item in items %}
+    <li>
+      <a href="{{ url_for('item_page', item_id=item.id) }}">
+        <img src={{item.image_url}} />
+        <span>{{item.name}}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
-<a href="/items/create">Add Item</a>
+<a href="{{ url_for('create_item_page') }}">Add Item</a>
 {% endblock %}
