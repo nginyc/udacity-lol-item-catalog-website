@@ -6,5 +6,5 @@
 {% endblock %}
 
 {% block main %}
-{{item_form(action=url_for('create_item_request'), item_categories=item_categories)}}
+{{item_form(action=url_for('create_item_request', csrf_token=csrf_token), item_categories=item_categories)}}
 {% endblock %}

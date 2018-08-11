@@ -3,9 +3,11 @@ from flask import Flask, render_template, request, jsonify, make_response, sessi
 from google.oauth2 import id_token
 from google.auth.transport import requests as google_auth_requests
 import requests
+import random
+import string
+
 from config import GOOGLE_OAUTH_CLIENT_ID, GOOGLE_OAUTH_CLIENT_SECRET, APP_SECRET, \
   SQLITE_DB_URL
-  
 from utils import upsert_user, get_item_categories, create_item, \
   get_items, get_item, delete_item, update_item, get_user
 from database import Database, User, Item, ItemCategory, ItemToItemCategory
@@ -17,7 +19,8 @@ app = Flask(__name__)
 @app.context_processor
 def inject_config():
   return {
-    'google_oauth_client_id': GOOGLE_OAUTH_CLIENT_ID
+    'google_oauth_client_id': GOOGLE_OAUTH_CLIENT_ID,
+    'csrf_token': session.get('csrf_token')
   }
 
 @app.context_processor
@@ -115,8 +118,9 @@ def update_item_page(item_id):
 
 @app.route('/items/<int:item_id>/update', methods=['POST'])
 def update_item_request(item_id):
-  if 'user_id' not in session:
-    return make_response('Authentication is required.', 401)
+  res = assert_user_is_authenticated()
+  if res:
+    return res
 
   db.connect()
   item = update_item(
@@ -136,8 +140,10 @@ def update_item_request(item_id):
 
 @app.route('/items/<int:item_id>/delete', methods=['POST'])
 def delete_item_request(item_id):
-  if 'user_id' not in session:
-    return make_response('Authentication is required.', 401)
+
+  res = assert_user_is_authenticated()
+  if res:
+    return res
 
   db.connect()
   item = delete_item(db.session, item_id)
@@ -156,8 +162,9 @@ def create_item_request():
     return make_response('An item requires a name, description & \
       belong to at least 1 category.', 400) 
 
-  if 'user_id' not in session:
-    return make_response('Authentication is required.', 401)
+  res = assert_user_is_authenticated()
+  if res:
+    return res
 
   db.connect()
   item = create_item(
@@ -177,7 +184,6 @@ def create_item_request():
 
 @app.route('/login-with-google', methods=['POST'])
 def login_with_google_request():
-  # TODO: Implement CSRF
   data = request.get_json()
   token = data.get('token')
 
@@ -214,6 +220,7 @@ def login_with_google_request():
     db.connect()
     user = upsert_user(db.session, user_email, user_profile_image_url, user_name)
     session['user_id'] = user.id
+    session['csrf_token'] = ''.join(random.choice(string.ascii_uppercase + string.digits) for x in range(32))
     db.disconnect() 
   
     flash('Successfully logged in with Google!')
@@ -234,6 +241,18 @@ def logout():
   flash('Successfully logged out.')
 
   return redirect(url_for('items_page'))
+
+def assert_user_is_authenticated():
+  csrf_token = request.args.get('csrf_token')
+
+  if 'user_id' not in session:
+    return make_response('Authentication is required.', 401)
+
+  if csrf_token != session.get('csrf_token'):
+    return make_response('Invalid CSRF token', 401)
+
+  return None
+
 
 if __name__ == '__main__':
   app.secret_key = APP_SECRET

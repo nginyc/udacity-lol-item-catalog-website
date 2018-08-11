@@ -6,7 +6,11 @@
 {% endblock %}
 
 {% block main %}
-{{item_form(action=url_for('update_item_request', item_id=item.id), item_categories=item_categories,
-  item_name=item.name, item_description=item.description, item_image_url=item.image_url, 
+{{item_form(
+  action=url_for('update_item_request', item_id=item.id, csrf_token=csrf_token), 
+  item_categories=item_categories, 
+  item_name=item.name, 
+  item_description=item.description, 
+  item_image_url=item.image_url, 
   item_category_ids=item_category_ids)}}
 {% endblock %}
