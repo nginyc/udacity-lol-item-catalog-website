@@ -1,6 +1,6 @@
 from database import Item, ItemCategory, ItemToItemCategory
 
-def create_item(session, name, owner_id, description, category_ids, image_url=None):
+def create_item(session, name, description, category_ids, owner_id=None, image_url=None):
   item = session.query(Item).filter_by(name=name).first()
 
   if item is not None:
@@ -22,3 +22,8 @@ def create_item(session, name, owner_id, description, category_ids, image_url=No
   
   return item
   
+def create_item_if_not_exists(session, **kwargs):
+  try:
+    create_item(session, **kwargs)
+  except:
+    pass

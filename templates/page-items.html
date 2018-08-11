@@ -8,6 +8,8 @@
 
   .items_page ._categories_box {
     padding: 8px;
+    width: 20%;
+    min-width: 200px;
   }
 
   .items_page ._categories_box ._title {
@@ -26,27 +28,38 @@
     display: block;
   }
 
-  .items_page ._items_box {
-    flex: 1;
-  }
-
   .items_page ._add_item_box {
     padding: 12px 0;
     font-weight: bold;
   }
 
-  .items_page ._item_link {
+  .items_page ._items_outer_box {
+    flex: 1;
+    border: 1px solid #96732b;
+    padding: 12px;
+  }
+
+  .items_page ._items_box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .items_page ._item {
+    width: 200px;
+  }
+
+  .items_page ._items_box ._item ._link {
     display: flex;
     align-items: center;
   }
 
-  .items_page ._item_link ._img {
+  .items_page ._items_box ._item ._link ._img {
     border-radius: 50%;
     max-width: 48px;
     max-height: 48px; 
   }
 
-  .items_page ._item_link ._name {
+  .items_page ._items_box ._item ._link ._name {
     padding: 12px;
     flex: 1;
   }
@@ -73,17 +86,17 @@
     </div>
     {% endif %}
   </div>
-  <div class="_items_box">
-    <ul>
-      {% for item in items %}
-      <li>
-        <a class="_item_link" href="{{ url_for('item_page', item_id=item.id) }}">
-          <img class="_img" src={{item.image_url}} />
-          <span class="_name">{{item.name}}</span>
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+  <div class="_items_outer_box">
+    <ul class="_items_box">
+        {% for item in items %}
+        <li class="_item">
+          <a class="_link" href="{{ url_for('item_page', item_id=item.id) }}">
+            <img class="_img" src={{item.image_url}} />
+            <span class="_name">{{item.name}}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
   </div>
 </div>
 {% endblock %}

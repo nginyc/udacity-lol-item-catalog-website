@@ -56,7 +56,7 @@
   </div>
   <div class="_details">
     <h2>Description</h2>
-    <div class="_description">{{item.description}}</div>
+    <div class="_description">{{item.description.replace('\n', '<br>')|safe}}</div>
     <div>
       <h3>Categories</h3>
       <ul class="_categories_list">

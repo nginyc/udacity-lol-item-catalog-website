@@ -1,0 +1,1663 @@
+[
+  {
+    "name": "Boots of Speed",
+    "description": "Limited to 1.\n\nUNIQUE Passive - Enhanced Movement: +25 Movement Speed",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1001.png",
+    "categories": [
+      "Movement"
+    ]
+  },
+  {
+    "name": "Faerie Charm",
+    "description": "+25% Base Mana Regen ",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1004.png",
+    "categories": [
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Rejuvenation Bead",
+    "description": "+50% Base Health Regen ",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1006.png",
+    "categories": [
+      "Health Regen"
+    ]
+  },
+  {
+    "name": "Giant's Belt",
+    "description": "+380 Health",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1011.png",
+    "categories": [
+      "Health"
+    ]
+  },
+  {
+    "name": "Cloak of Agility",
+    "description": "+20% Critical Strike Chance",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1018.png",
+    "categories": [
+      "Critical Strike"
+    ]
+  },
+  {
+    "name": "Blasting Wand",
+    "description": "+40 Ability Power",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1026.png",
+    "categories": [
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Sapphire Crystal",
+    "description": "+250 Mana",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1027.png",
+    "categories": [
+      "Mana"
+    ]
+  },
+  {
+    "name": "Ruby Crystal",
+    "description": "+150 Health",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1028.png",
+    "categories": [
+      "Health"
+    ]
+  },
+  {
+    "name": "Cloth Armor",
+    "description": "+15 Armor",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1029.png",
+    "categories": [
+      "Armor"
+    ]
+  },
+  {
+    "name": "Chain Vest",
+    "description": "+40 Armor",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1031.png",
+    "categories": [
+      "Armor"
+    ]
+  },
+  {
+    "name": "Null-Magic Mantle",
+    "description": "+25 Magic Resist",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1033.png",
+    "categories": [
+      "Magic Resist"
+    ]
+  },
+  {
+    "name": "Long Sword",
+    "description": "+10 Attack Damage",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1036.png",
+    "categories": [
+      "Damage"
+    ]
+  },
+  {
+    "name": "Pickaxe",
+    "description": "+25 Attack Damage",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1037.png",
+    "categories": [
+      "Damage"
+    ]
+  },
+  {
+    "name": "B. F. Sword",
+    "description": "+40 Attack Damage",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1038.png",
+    "categories": [
+      "Damage"
+    ]
+  },
+  {
+    "name": "Hunter's Talisman",
+    "description": "+150% Base Mana Regen while in Jungle  \n\nUNIQUE Passive - Tooth: Damaging a monster with a spell or attack  steals 25 Health over 5 seconds. Killing monsters grants special bonus experience.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1039.png",
+    "categories": [
+      "Life Steal",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Hunter's Machete",
+    "description": "+10% Life Steal vs. Monsters\n\nUNIQUE Passive - Nail: Basic attacks deal 25 bonus damage on hit vs. Monsters. Killing monsters grants special bonus experience.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1041.png",
+    "categories": [
+      "Life Steal"
+    ]
+  },
+  {
+    "name": "Dagger",
+    "description": "+12% Attack Speed",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1042.png",
+    "categories": [
+      "Attack Speed"
+    ]
+  },
+  {
+    "name": "Recurve Bow",
+    "description": "+25% Attack Speed\n\nUNIQUE Passive: Basic attacks deal an additional 15 physical damage on hit.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1043.png",
+    "categories": [
+      "Attack Speed"
+    ]
+  },
+  {
+    "name": "Brawler's Gloves",
+    "description": "+10% Critical Strike Chance",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1051.png",
+    "categories": [
+      "Critical Strike"
+    ]
+  },
+  {
+    "name": "Amplifying Tome",
+    "description": "+20 Ability Power",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1052.png",
+    "categories": [
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Vampiric Scepter",
+    "description": "+15 Attack Damage\n+10% Life Steal",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1053.png",
+    "categories": [
+      "Damage",
+      "Life Steal"
+    ]
+  },
+  {
+    "name": "Doran's Shield",
+    "description": "+80 Health\n\nPassive: Restores 6 Health every 5 seconds.\nUNIQUE Passive: Blocks 8 damage from single target attacks and spells from champions.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1054.png",
+    "categories": [
+      "Health",
+      "Health Regen"
+    ]
+  },
+  {
+    "name": "Doran's Blade",
+    "description": "+8 Attack Damage\n+80 Health\n+3% Life Steal",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1055.png",
+    "categories": [
+      "Health",
+      "Damage",
+      "Life Steal"
+    ]
+  },
+  {
+    "name": "Doran's Ring",
+    "description": "+60 Health\n+15 Ability Power\n+50% Base Mana Regen \n\nPassive: Restores 4 Mana upon killing a unit.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1056.png",
+    "categories": [
+      "Health",
+      "Ability Power",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Negatron Cloak",
+    "description": "+40 Magic Resist",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1057.png",
+    "categories": [
+      "Magic Resist"
+    ]
+  },
+  {
+    "name": "Needlessly Large Rod",
+    "description": "+60 Ability Power",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1058.png",
+    "categories": [
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "The Dark Seal",
+    "description": "+15 Ability Power\n+25% Increased Healing from Potions\n+100 Mana\n\nUNIQUE Passive - Dread: Grants +3 Ability Power per Glory.  \nUNIQUE Passive - Do or Die: Grants 2 Glory for a champion kill or 1 Glory for an assist, up to 10 Glory total. Lose 4 Glory on death.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1082.png",
+    "categories": [
+      "Health Regen",
+      "Ability Power",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Cull",
+    "description": "+7 Attack Damage\n+3 Life on Hit\n\nUNIQUE Passive: Killing a lane minion grants 1 additional Gold. Killing 100 lane minions grants an additional 350 bonus gold immediately and disables this passive.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/1083.png",
+    "categories": [
+      "Damage",
+      "Life Steal"
+    ]
+  },
+  {
+    "name": "Health Potion",
+    "description": "Limited to 5 at one time. Limited to 1 type of Healing Potion.\n\nClick to Consume: Restores 150 Health over 15 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2003.png",
+    "categories": [
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Kircheis Shard",
+    "description": "+15% Attack Speed\n\nPassive: Moving and attacking will make an attack Energized.\n\nUNIQUE Passive - Energized Strike: Your Energized attacks deal 40 bonus magic damage on hit.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2015.png",
+    "categories": [
+      "Attack Speed"
+    ]
+  },
+  {
+    "name": "Refillable Potion",
+    "description": "Limited to 1 type of Healing Potion.\n\nUNIQUE Active: Consumes a charge to restore 125 Health over 12 seconds. Holds up to 2 charges and refills upon visiting the shop.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2031.png",
+    "categories": [
+      "Health Regen",
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Hunter's Potion",
+    "description": "Limited to 1 type of Healing Potion.\n\nUNIQUE Active: Consumes a charge to restore 60 Health and 35 Mana over 8 seconds. Holds up to 5 charges and refills upon visiting the shop.\n\nKilling a Large Monster grants 1 charge.\n\n(Killing a Large Monster at full charges will automatically consume the newest charge.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2032.png",
+    "categories": [
+      "Health Regen",
+      "Mana Regen",
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Corrupting Potion",
+    "description": "Limited to 1 type of Healing Potion.\n\nUNIQUE Active: Consumes a charge to restore 125 Health and 75 Mana over 12 seconds and grants Touch of Corruption during that time. Holds up to 3 charges that refills upon visiting the shop.\n\nTouch of Corruption: Damaging spells and attacks burn enemy champions for 15 - 30 magic damage over 3 seconds. (Half Damage for Area of Effect or Damage over Time spells. Damage increases with champion level.)\n\n(Corrupting Potion can be used even at full Health and Mana.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2033.png",
+    "categories": [
+      "Health Regen",
+      "Mana Regen",
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Ruby Sightstone",
+    "description": "+500 Health\n\nUNIQUE Passive: Item Active cooldowns are reduced by 20%.\nUNIQUE Active - Warding: Consumes a charge to place a Stealth Ward that reveals the surrounding area for 150 seconds. Holds up to 4 charges and refills when visiting the shop.\n\n(A player may only have 3 Stealth Wards on the map at one time. Unique Passives with the same name don't stack.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2045.png",
+    "categories": [
+      "Health"
+    ]
+  },
+  {
+    "name": "Oracle's Extract",
+    "description": "Click to Consume: Grants detection of nearby invisible or unseen enemy units for 5 minutes.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2047.png",
+    "categories": [
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Sightstone",
+    "description": "+150 Health\n\nUNIQUE Active - Warding: Consumes a charge to place a Stealth Ward that reveals the surrounding area for 150 seconds.  Holds up to 3 charges which refill upon visiting the shop. \n\n(A player may only have 3 Stealth Wards on the map at one time. Unique Passives with the same name don't stack.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2049.png",
+    "categories": [
+      "Health"
+    ]
+  },
+  {
+    "name": "Explorer's Ward",
+    "description": "Click to Consume: Places an invisible ward that reveals the surrounding area for 60 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2050.png",
+    "categories": [
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Guardian's Horn",
+    "description": "+150 Health\n\nPassive: Restores 20 Health every 5 seconds.\nUNIQUE Passive: Blocks 12 damage from attacks and spells from champions (25% effectiveness vs. damage over time abilities).\n\nLimited to 1 Guardian's Item.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2051.png",
+    "categories": [
+      "Health",
+      "Health Regen"
+    ]
+  },
+  {
+    "name": "Raptor Cloak",
+    "description": "+40 Armor\n+125% Base Health Regen \n\nUNIQUE Passive - Point Runner: Builds up to +20% Movement Speed over 2 seconds while near turrets, fallen turrets and Void Gates.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2053.png",
+    "categories": [
+      "Health Regen",
+      "Armor",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Control Ward",
+    "description": "Can only carry 3 Control Wards in inventory.\n\nClick to Consume: Places a ward that reveals the surrounding area. This device will disable and reveal nearby wards and hidden traps. Control Wards do not disable other Control Wards. Camouflaged units will also be revealed. \n\nLimit 1 Control Ward on the map per player.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2055.png",
+    "categories": [
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Elixir of Iron",
+    "description": "Level 9 required to purchase.\n\nClick to Consume: Grants +300 Health, 25% Tenacity, increased champion size, and Path of Iron for 3 minutes.\n\nPath of Iron: Moving leaves a path behind that boosts allied champion's Movement Speed by 15%.\n\n(Only one Elixir effect may be active at a time.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2138.png",
+    "categories": [
+      "Health",
+      "Movement",
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Elixir of Sorcery",
+    "description": "Level 9 required to purchase.\n\nClick to Consume: Grants +50 Ability Power, 15 bonus Mana Regen per 5 seconds and Sorcery for 3 minutes. \n\nSorcery: Damaging a champion or turret deals 25 bonus True Damage. This effect has a 5 second cooldown versus champions but no cooldown versus turrets.\n\n(Only one Elixir effect may be active at a time.)\n",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2139.png",
+    "categories": [
+      "Ability Power",
+      "Mana Regen",
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Elixir of Wrath",
+    "description": "Level 9 required to purchase.\n\nClick to Consume: Grants +30 Attack Damage and Bloodlust for 3 minutes.\n\nBloodlust: Dealing physical damage to champions heals for 15% of the damage dealt.\n\n(Only one Elixir effect may be active at a time.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2140.png",
+    "categories": [
+      "Damage",
+      "Life Steal",
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Eye of the Watchers",
+    "description": "+200 Health\n+100% Base Mana Regen \n+25 Ability Power\n+10% Cooldown Reduction\n+2 Gold per 10 seconds\n\nUNIQUE Passive - Tribute: Spells and basic attacks against champions or buildings deal 15 additional damage and grant 15 Gold. This can occur up to 3 times every 30 seconds.\nUNIQUE Active - Warding: Consumes a charge to place a Stealth Ward that reveals the surrounding area for 150 seconds. Holds up to 4 charges which refill upon visiting the shop. \n\nLimited to 1 Gold Income Item.\n\n(A player may only have 3 Stealth Wards on the map at one time. Unique Passives with the same name don't stack.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2301.png",
+    "categories": [
+      "Health",
+      "Ability Power",
+      "Cooldown Reduction",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Eye of the Oasis",
+    "description": "+200 Health\n+100% Base Health Regen \n+100% Base Mana Regen \n+10% Cooldown Reduction\n\nUNIQUE Passive - Favor: Being near a minion's death without dealing the killing blow grants 6 Gold and 10 Health.\nUNIQUE Active - Warding: Consumes a charge to place a Stealth Ward that reveals the surrounding area for 150 seconds. Holds up to 4 charges which refill upon visiting the shop.\n\nLimited to 1 Gold Income Item.\n\n(A player may only have 3 Stealth Wards on the map at one time. Unique Passives with the same name don't stack.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2302.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Cooldown Reduction",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Eye of the Equinox",
+    "description": "+500 Health\n+200% Base Health Regen \n+2 Gold per 10 seconds\n\nUNIQUE Passive - Spoils of War: Melee basic attacks execute minions below 320 (+20 per level) Health. Killing a minion heals the owner and the nearest allied champion for 50 Health and grants them kill Gold. These effects require a nearby ally. Recharges every 30 seconds. Max 4 charges.\nUNIQUE Active - Warding: Consumes a charge to place a Stealth Ward that reveals the surrounding area for 150 seconds. Holds up to 4 charges which refill upon visiting the shop.\n\nLimited to 1 Gold Income Item.\n\n(A player may only have 3 Stealth Wards on the map at one time. Unique Passives with the same name don't stack.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/2303.png",
+    "categories": [
+      "Health",
+      "Health Regen"
+    ]
+  },
+  {
+    "name": "Abyssal Scepter",
+    "description": "+60 Ability Power\n+60 Magic Resist\n+10% Cooldown Reduction\n\nUNIQUE Aura: Nearby enemy champions take 10% more magic damage.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3001.png",
+    "categories": [
+      "Magic Resist",
+      "Ability Power",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Archangel's Staff",
+    "description": "+80 Ability Power\n+250 Mana\n\nUNIQUE Passive - Awe: Grants Ability Power equal to 3% of maximum Mana. Refunds 25% of Mana spent.\nUNIQUE Passive - Mana Charge: Grants +8 maximum Mana (max +750 Mana) for each spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).\n\nTransforms into Seraph's Embrace at +750 Mana.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3003.png",
+    "categories": [
+      "Ability Power",
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Manamune",
+    "description": "+25 Attack Damage\n+250 Mana\n\nUNIQUE Passive - Awe: Grants bonus Attack Damage equal to 2% of maximum Mana. Refunds 15% of Mana spent.\nUNIQUE Passive - Mana Charge: Grants +4 maximum Mana (max +750 Mana) for each basic attack, spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).\n\nTransforms into Muramana at +750 Mana.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3004.png",
+    "categories": [
+      "Damage",
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Berserker's Greaves",
+    "description": " +35% Attack Speed\n\nUNIQUE Passive - Enhanced Movement: +45 Movement Speed",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3006.png",
+    "categories": [
+      "Attack Speed",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Archangel's Staff (Quick Charge)",
+    "description": "+80 Ability Power\n+250 Mana\n\nUNIQUE Passive - Awe: Grants Ability Power equal to 3% of maximum Mana. Refunds 25% of Mana spent. \nUNIQUE Passive - Mana Charge: Grants +12 maximum Mana (max +750 Mana) for each spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).\n\nTransforms into Seraph's Embrace at +750 Mana.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3007.png",
+    "categories": [
+      "Ability Power",
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Manamune (Quick Charge)",
+    "description": "+25 Attack Damage\n+250 Mana\n\nUNIQUE Passive - Awe: Grants bonus Attack Damage equal to 2% of maximum Mana. Refunds 15% of Mana spent.\nUNIQUE Passive - Mana Charge: Grants +6 maximum Mana (max +750 Mana) for each basic attack, spell cast or Mana expenditure (occurs up to 2 times every 8 seconds).\n\nTransforms into Muramana at +750 Mana.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3008.png",
+    "categories": [
+      "Damage",
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Boots of Swiftness",
+    "description": "UNIQUE Passive - Enhanced Movement: +55 Movement Speed\nUNIQUE Passive - Slow Resist: Movement slowing effects are reduced by 25%.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3009.png",
+    "categories": [
+      "Movement"
+    ]
+  },
+  {
+    "name": "Catalyst of Aeons",
+    "description": "+225 Health\n+300 Mana\n\nUNIQUE Passive - Eternity: 15% of damage taken from champions is gained as Mana. \n\nSpending Mana restores 20% of the cost as Health, up to 15 per spell cast.  \n\n(Toggled Spells heal for a maximum of 15 per second.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3010.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Sorcerer's Shoes",
+    "description": "+15 Magic Penetration\n\nUNIQUE Passive - Enhanced Movement: +45 Movement Speed",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3020.png",
+    "categories": [
+      "Movement"
+    ]
+  },
+  {
+    "name": "Frozen Mallet",
+    "description": "+700 Health\n+30 Attack Damage\n\nUNIQUE Passive - Icy: Basic attacks slow the target's Movement Speed for 1.5 seconds on hit (40% slow for melee attacks, 30% slow for ranged attacks).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3022.png",
+    "categories": [
+      "Health",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Glacial Shroud",
+    "description": "+25 Armor\n+250 Mana\n\nUNIQUE Passive: +10% Cooldown Reduction",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3024.png",
+    "categories": [
+      "Armor",
+      "Cooldown Reduction",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Iceborn Gauntlet",
+    "description": "+65 Armor\n+20% Cooldown Reduction\n+500 Mana\n\nUNIQUE Passive - Spellblade: After using an ability, the next basic attack deals bonus physical damage equal to 100% of base Attack Damage in an area and creates an icy zone for 2 seconds that slows Movement Speed by 30% (1.5 second cooldown).\n\nSize of zone increases with bonus armor.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3025.png",
+    "categories": [
+      "Armor",
+      "Cooldown Reduction",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Guardian Angel",
+    "description": "+60 Armor\n+45 Magic Resist\n\nUNIQUE Passive: Upon taking lethal damage, restores the greater of 700 Health or 30% of maximum Health and 30% of maximum Mana after 4 seconds of stasis (300 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3026.png",
+    "categories": [
+      "Magic Resist",
+      "Armor"
+    ]
+  },
+  {
+    "name": "Rod of Ages",
+    "description": "+300 Health\n+300 Mana\n+60 Ability Power\n\nPassive: Grants +20 Health, +10 Mana, and +4 Ability Power per stack (max +200 Health, +100 Mana, and +40 Ability Power). Grants 1 stack per minute (max 10 stacks).\nUNIQUE Passive - Eternity: 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3027.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Ability Power",
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Chalice of Harmony",
+    "description": "+25 Magic Resist\n+50% Base Mana Regen \n\nUNIQUE Passive - Harmony: Grants bonus % Base Health Regen equal to your bonus % Base Mana Regen.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3028.png",
+    "categories": [
+      "Magic Resist",
+      "Health Regen",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Rod of Ages (Quick Charge)",
+    "description": "+300 Health\n+300 Mana\n+60 Ability Power\n\nPassive: Grants +20 Health, +10 Mana, and +4 Ability Power per stack (max +200 Health, +100 Mana, and +40 Ability Power). Grants 1 stack per 40 seconds (max 10 stacks).\nUNIQUE Passive - Eternity: 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3029.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Ability Power",
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Hextech GLP-800",
+    "description": "+300 Health\n+400 Mana\n+80 Ability Power\n\nUNIQUE Passive - Eternity: 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.\nUNIQUE Active - Frost Bolt: Fires a spray of icy bolts that explode, dealing 100 - 200 (+35% of your Ability Power) magic damage to all enemies hit. (40 second cooldown, shared with other Hextech items).\n\nEnemies hit are slowed by 65% decaying over 0.5 seconds.\n\n(Frost Bolt has a cast time, in contrast to most actives.) ",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3030.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Ability Power",
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Infinity Edge",
+    "description": "+70 Attack Damage\n+20% Critical Strike Chance\n\nUNIQUE Passive: Critical strike bonus damage is increased by 50%.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3031.png",
+    "categories": [
+      "Damage",
+      "Critical Strike"
+    ]
+  },
+  {
+    "name": "Mortal Reminder",
+    "description": "+50 Attack Damage\n\nUNIQUE Passive - Executioner: Physical damage inflicts Grievous Wounds on enemy champions for 5 seconds.\nUNIQUE Passive - Last Whisper: +45% Bonus Armor Penetration.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3033.png",
+    "categories": [
+      "Damage"
+    ]
+  },
+  {
+    "name": "Giant Slayer",
+    "description": "+10 Attack Damage\n\nUNIQUE Passive - Giant Slayer: Grants up to +10% physical damage against enemy champions with greater maximum Health than you (+1% damage per 50 Health difference, maxing at 500 Health difference).\n\n(Unique Passives with the same name don't stack.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3034.png",
+    "categories": [
+      "Damage"
+    ]
+  },
+  {
+    "name": "Last Whisper",
+    "description": "+25 Attack Damage\n\nUNIQUE Passive - Last Whisper: +30% Bonus Armor Penetration",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3035.png",
+    "categories": [
+      "Damage"
+    ]
+  },
+  {
+    "name": "Lord Dominik's Regards",
+    "description": "+50 Attack Damage\n\nUNIQUE Passive - Giant Slayer: Grants up to +15% physical damage against enemy champions with greater maximum Health than you (+1.5% damage per 50 Health difference, maxing at 500 Health difference).\nUNIQUE Passive - Last Whisper: +45% Bonus Armor Penetration",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3036.png",
+    "categories": [
+      "Damage"
+    ]
+  },
+  {
+    "name": "Mejai's Soulstealer",
+    "description": "+20 Ability Power\n+200 Mana\n\nUNIQUE Passive - Dread: Grants +5 Ability Power per Glory. Grants 10% Movement Speed if you have at least 15 Glory.\nUNIQUE Passive - Do or Die: Grants 4 Glory for a champion kill or 2 Glory for an assist, up to 25 Glory total. Lose 10 stacks of Glory upon dying.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3041.png",
+    "categories": [
+      "Ability Power",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Phage",
+    "description": "+200 Health\n+15 Attack Damage\n\nUNIQUE Passive - Rage: Basic attacks grant 20 Movement Speed for 2 seconds. Kills grant 60 Movement Speed instead. This Movement Speed bonus is halved for ranged champions.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3044.png",
+    "categories": [
+      "Health",
+      "Damage",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Phantom Dancer",
+    "description": "+45% Attack Speed\n+30% Critical Strike Chance\n+5% Movement Speed\n\nUNIQUE Passive - Spectral Waltz: While within 550 units of an enemy champion you can see, +7% Movement Speed and you can move through units.\nUNIQUE Passive - Lament: The last champion hit deals 12% less damage to you (ends after 10 seconds of not hitting).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3046.png",
+    "categories": [
+      "Critical Strike",
+      "Attack Speed",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Ninja Tabi",
+    "description": "+30 Armor\n\nUNIQUE Passive: Blocks 12% of the damage from basic attacks.\nUNIQUE Passive - Enhanced Movement: +45 Movement Speed",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3047.png",
+    "categories": [
+      "Armor",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Zeke's Harbinger",
+    "description": "+250 Mana\n+30 Armor\n+50 Ability Power\n+10% Cooldown Reduction\n\nUNIQUE Active - Conduit: Bind to target ally (60 second cooldown).\nUNIQUE Passive: When within 1000 units of each other, you and your ally generate Charges. Attacking or casting spells generates extra Charges. At 100 Charges, causing damage consumes them, increasing your and your ally's Ability Power by 20% and Critical Strike Chance by 50% for 8 seconds. ",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3050.png",
+    "categories": [
+      "Armor",
+      "Ability Power",
+      "Cooldown Reduction",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Jaurim's Fist",
+    "description": "+15 Attack Damage\n+150 Health\n\nUNIQUE Passive: Killing a unit grants 5 maximum Health. This bonus stacks up to 30 times.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3052.png",
+    "categories": [
+      "Health",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Sterak's Gage",
+    "description": "+400 Health\n+25% Base Attack Damage \n\nUNIQUE Passive - Lifeline: Upon taking at least 400 to 1800 damage (based on level) within 5 seconds, gain a rapidly decaying Shield for 30% of your maximum Health for 8 seconds (60 second cooldown).\n\nSterak's Fury: When Lifeline triggers, grow in size and strength, gaining +25% additional Base Attack Damage.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3053.png",
+    "categories": [
+      "Health",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Ohmwrecker",
+    "description": "+300 Health\n+50 Armor\n+150% Base Health Regen \n+10% Cooldown Reduction\n\nUNIQUE Active: Prevents nearby enemy turrets from attacking for 3 seconds (120 second cooldown). This effect cannot be used against the same turret more than once every 8 seconds.\n\nUNIQUE Passive - Point Runner: Builds up to +20% Movement Speed over 2 seconds while near turrets (including fallen turrets) and Void Gates.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3056.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Armor",
+      "Cooldown Reduction",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Sheen",
+    "description": "+250 Mana\n+10% Cooldown Reduction\n\nUNIQUE Passive - Spellblade: After using an ability, the next basic attack deals bonus physical damage equal to 100% base Attack Damage on hit (1.5 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3057.png",
+    "categories": [
+      "Cooldown Reduction",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Banner of Command",
+    "description": "+60 Armor\n+30 Magic Resist\n+400 Mana\n+10% Cooldown Reduction\n\nUNIQUE Active - Promote: Greatly increases the power of a lane minion and grants it immunity to magic damage (120 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3060.png",
+    "categories": [
+      "Magic Resist",
+      "Armor",
+      "Cooldown Reduction",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Spirit Visage",
+    "description": "+500 Health\n+55 Magic Resist\n+200% Base Health Regen \n+10% Cooldown Reduction\n\nUNIQUE Passive: Increases all healing received by 25%.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3065.png",
+    "categories": [
+      "Health",
+      "Magic Resist",
+      "Health Regen",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Kindlegem",
+    "description": "+200 Health  \n\nUNIQUE Passive: +10% Cooldown Reduction",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3067.png",
+    "categories": [
+      "Health",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Sunfire Cape",
+    "description": "+500 Health\n+50 Armor  \n\nUNIQUE Passive - Immolate: Deals 25 (+1 per champion level) magic damage per second to nearby enemies. Deals 50% bonus damage to minions and monsters.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3068.png",
+    "categories": [
+      "Health",
+      "Armor"
+    ]
+  },
+  {
+    "name": "Talisman of Ascension",
+    "description": "+45 Armor\n+150% Base Health Regen \n+75% Base Mana Regen \n+10% Cooldown Reduction\n\nUNIQUE Passive - Point Runner: Builds up to +20% Movement Speed over 2 seconds while near turrets, fallen turrets and Void Gates.\nUNIQUE Passive - Favor: Being near a minion's death without dealing the killing blow grants 6 Gold and 10 Health.\nUNIQUE Active: Grants nearby allies +40% Movement Speed for 3 seconds (60 second cooldown).\n\nLimited to 1 Gold Income Item.\n\n''Praise the sun.'' - Historian Shurelya, 22 September, 25 CLE",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3069.png",
+    "categories": [
+      "Health Regen",
+      "Armor",
+      "Cooldown Reduction",
+      "Mana Regen",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Tear of the Goddess",
+    "description": "+250 Mana\n\nUNIQUE Passive - Awe: Refunds 15% of Mana spent.\nUNIQUE Passive - Mana Charge: Grants 4 maximum Mana on spell cast or Mana expenditure (up to 2 times per 8 seconds).\n\nCaps at +750 Mana.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3070.png",
+    "categories": [
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "The Black Cleaver",
+    "description": "+300 Health\n+50 Attack Damage\n+20% Cooldown Reduction\n\nUNIQUE Passive: Dealing physical damage to an enemy champion Cleaves them, reducing their Armor by 5% for 6 seconds (stacks up to 6 times, up to 30%).\nUNIQUE Passive - Rage: Dealing physical damage grants 20 movement speed for 2 seconds. Assists on Cleaved enemy champions or kills on any unit grant 60 movement speed for 2 seconds instead. This Movement Speed is halved for ranged champions.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3071.png",
+    "categories": [
+      "Health",
+      "Damage",
+      "Cooldown Reduction",
+      "Movement"
+    ]
+  },
+  {
+    "name": "The Bloodthirster",
+    "description": "+75 Attack Damage\n\nUNIQUE Passive: +20% Life Steal\nUNIQUE Passive: Your basic attacks can now overheal you. Excess life is stored as a shield that can block 50-350 damage, based on champion level.\n\nThis shield decays slowly if you haven't dealt or taken damage in the last 25 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3072.png",
+    "categories": [
+      "Damage",
+      "Life Steal"
+    ]
+  },
+  {
+    "name": "Tear of the Goddess (Quick Charge)",
+    "description": "+250 Mana\n\nUNIQUE Passive - Awe: Refunds 15% of Mana spent.\nUNIQUE Passive - Mana Charge: Grants 6 maximum Mana on spell cast or Mana expenditure (up to 2 times per 8 seconds).\n\nCaps at +750 Mana.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3073.png",
+    "categories": [
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Ravenous Hydra",
+    "description": "+75 Attack Damage\n+100% Base Health Regen \n+12% Life Steal\n\nPassive: 50% of total Life Steal applies to damage dealt by this item.\nUNIQUE Passive - Cleave: Basic attacks deal 20% to 60% of total Attack Damage as bonus physical damage to enemies near the target on hit (enemies closest to the target take the most damage).\nUNIQUE Active - Crescent: Deals 60% to 100% of total Attack Damage as physical damage to nearby enemy units (closest enemies take the most damage) (10 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3074.png",
+    "categories": [
+      "Health Regen",
+      "Damage",
+      "Life Steal"
+    ]
+  },
+  {
+    "name": "Thornmail",
+    "description": "+100 Armor  \n\nUNIQUE Passive: Upon being hit by a basic attack, reflects magic damage back to the attacker equal to 25% of your bonus Armor plus 15% of the incoming damage.\n\n(Bonus Armor is Armor from items, buffs, runes and masteries.)\n(Reflect damage is calculated based on damage taken before being reduced by Armor.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3075.png",
+    "categories": [
+      "Armor"
+    ]
+  },
+  {
+    "name": "Tiamat",
+    "description": "+20 Attack Damage\n+50% Base Health Regen \n\nUNIQUE Passive - Cleave: Basic attacks deal 20% to 60% of total Attack Damage as bonus physical damage to enemies near the target on hit (enemies closest to the target take the most damage).\nUNIQUE Active - Crescent: Deals 60% to 100% of total Attack Damage as physical damage to nearby enemy units (enemies closest to the target take the most damage) (10 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3077.png",
+    "categories": [
+      "Health Regen",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Trinity Force",
+    "description": "+250 Health\n+250 Mana\n+25 Attack Damage\n+40% Attack Speed\n+20% Cooldown Reduction\n+5% Movement Speed\n\nUNIQUE Passive - Rage: Basic attacks grant 20 Movement Speed for 2 seconds. Kills grant 60 Movement Speed instead. This Movement Speed bonus is halved for ranged champions.\nUNIQUE Passive - Spellblade: After using an ability, the next basic attack deals bonus physical damage equal to 200% of base Attack Damage on hit (1.5 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3078.png",
+    "categories": [
+      "Health",
+      "Damage",
+      "Attack Speed",
+      "Cooldown Reduction",
+      "Mana",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Warden's Mail",
+    "description": "+40 Armor\n\nUNIQUE Passive - Cold Steel: When hit by basic attacks, reduces the attacker's Attack Speed by 15% for 1 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3082.png",
+    "categories": [
+      "Armor"
+    ]
+  },
+  {
+    "name": "Warmog's Armor",
+    "description": "+800 Health\n+200% Base Health Regen \n\nUNIQUE Passive: +10% Cooldown Reduction\nUNIQUE Passive: Grants Warmog's Heart if you have at least 3000 maximum Health.\n\nWarmog's Heart: Restores 15% of maximum Health every 5 seconds if damage hasn't been taken within 8 seconds. ",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3083.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Overlord's Bloodmail",
+    "description": "+800 Health\n+100% Base Health Regen \n\nUNIQUE Passive: Upon champion kill or assist, restores 300 Health over 5 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3084.png",
+    "categories": [
+      "Health",
+      "Health Regen"
+    ]
+  },
+  {
+    "name": "Runaan's Hurricane",
+    "description": "+40% Attack Speed\n+30% Critical Strike Chance\n+7% Movement Speed\n\nUNIQUE Passive - Wind's Fury: When basic attacking, bolts are fired at up to 2 enemies near the target, each dealing (25% of Attack Damage) physical damage. Bolts can critically strike and apply on hit effects.\nUNIQUE Passive: Basic attacks deal an additional 15 physical damage on hit.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3085.png",
+    "categories": [
+      "Critical Strike",
+      "Attack Speed",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Zeal",
+    "description": "+15% Attack Speed\n+20% Critical Strike Chance\n\nUNIQUE Passive: +5% Movement Speed",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3086.png",
+    "categories": [
+      "Critical Strike",
+      "Attack Speed",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Statikk Shiv",
+    "description": "+35% Attack Speed\n+30% Critical Strike Chance\n+5% Movement Speed\n\nPassive: Moving and attacking will make an attack Energized.\n\nUNIQUE Passive - Shiv Lightning: Your Energized attacks deal 50~120 bonus magic damage (based on level) to up to 5 targets on hit (deals +120% bonus damage to minions and can critically strike).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3087.png",
+    "categories": [
+      "Critical Strike",
+      "Attack Speed",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Rabadon's Deathcap",
+    "description": "+120 Ability Power  \n\nUNIQUE Passive: Increases Ability Power by 35%.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3089.png",
+    "categories": [
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Wooglet's Witchcap",
+    "description": "+100 Ability Power\n+45 Armor  \n\nUNIQUE Passive: Increases Ability Power by 25%\nUNIQUE Active: Champion becomes invulnerable and untargetable for 2.5 seconds, but is unable to move, attack, cast spells, or use items during this time (120 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3090.png",
+    "categories": [
+      "Armor",
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Wit's End",
+    "description": "+40% Attack Speed\n+40 Magic Resist\n\nUNIQUE Passive: Basic attacks deal 40 bonus magic damage on hit.\nUNIQUE Passive: Basic attacks steal 5 Magic Resist from the target on hit (stacks up to 5 times.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3091.png",
+    "categories": [
+      "Magic Resist",
+      "Attack Speed"
+    ]
+  },
+  {
+    "name": "Frost Queen's Claim",
+    "description": "+50 Ability Power\n+10% Cooldown Reduction\n+2 Gold per 10 seconds\n+75% Base Mana Regen \n\nUNIQUE Passive - Tribute: Spells and basic attacks against champions or buildings deal 15 additional damage and grant 15 Gold. This can occur up to 3 times every 30 seconds.\nUNIQUE Active: Summon 2 icy ghosts for 6 seconds that seek out nearby enemy champions. Ghosts reveal enemies on contact and reduce their Movement Speed by 40% for between 2 and 5 seconds based on how far the ghosts have traveled (90 second cooldown).\n\nLimited to 1 Gold Income Item.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3092.png",
+    "categories": [
+      "Ability Power",
+      "Cooldown Reduction",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Rapid Firecannon",
+    "description": "+30% Attack Speed\n+30% Critical Strike Chance\n+5% Movement Speed\n\nPassive: Moving and attacking will make an attack Energized.\n\nUNIQUE Passive - Firecannon: Your Energized attacks gain 35% bonus Range (+150 range maximum) and deal 50~160 bonus magic damage (based on level) on hit.\n\nEnergized attacks function on structures.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3094.png",
+    "categories": [
+      "Critical Strike",
+      "Attack Speed",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Nomad's Medallion",
+    "description": "+25% Base Health Regen \n+75% Base Mana Regen \n+10% Cooldown Reduction\n\nUNIQUE Passive - Favor: Being near a minion's death without dealing the killing blow grants 6 Gold and 10 Health.\n\nLimited to 1 Gold Income Item.\n\n''The medallion shines with the glory of a thousand voices when exposed to the sun.'' - Historian Shurelya, 22 June, 24 CLE",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3096.png",
+    "categories": [
+      "Health Regen",
+      "Cooldown Reduction",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Targon's Brace",
+    "description": "+175 Health\n+50% Base Health Regen \n+2 Gold per 10 seconds \n\nUNIQUE Passive - Spoils of War: Melee basic attacks execute minions below 200 (+10 per level) Health. Killing a minion heals the owner and the nearest allied champion for 40 Health and grants them kill Gold.\n\nThese effects require a nearby ally. Recharges every 30 seconds. Max 3 charges.\n\nLimited to 1 Gold Income Item.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3097.png",
+    "categories": [
+      "Health",
+      "Health Regen"
+    ]
+  },
+  {
+    "name": "Frostfang",
+    "description": "+15 Ability Power\n+2 Gold per 10 seconds\n+75% Base Mana Regen \n\nUNIQUE Passive - Tribute: Spells and basic attacks against champions or buildings deal 15 additional damage and grant 15 Gold. This can occur up to 3 times every 30 seconds. Killing a minion disables this passive for 12 seconds.\n\nLimited to 1 Gold Income Item.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3098.png",
+    "categories": [
+      "Ability Power",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Lich Bane",
+    "description": "+80 Ability Power\n+7% Movement Speed\n+10% Cooldown Reduction\n+250 Mana\n\nUNIQUE Passive - Spellblade: After using an ability, the next basic attack deals 75% Base Attack Damage (+50% of Ability Power) bonus magic damage on hit (1.5 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3100.png",
+    "categories": [
+      "Ability Power",
+      "Cooldown Reduction",
+      "Mana",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Stinger",
+    "description": "+35% Attack Speed\n\nUNIQUE Passive: +10% Cooldown Reduction",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3101.png",
+    "categories": [
+      "Attack Speed",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Banshee's Veil",
+    "description": "+300 Health\n+70 Magic Resist\n+100% Base Health Regeneration \n\nUNIQUE Passive: Grants a spell shield that blocks the next enemy ability. This shield refreshes after no damage is taken from enemy champions for 40 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3102.png",
+    "categories": [
+      "Health",
+      "Magic Resist",
+      "Health Regen"
+    ]
+  },
+  {
+    "name": "Lord Van Damm's Pillager",
+    "description": "+300 Health\n+50 Attack Damage\n+10% Cooldown Reduction\n\nUNIQUE Passive - Ashes to Ashes: Controlling the nearest Altar sets you aflame, dealing 25 (+1 per champion level) magic damage per second to nearby enemies (Deals 50% bonus damage to minions and monsters). Controlling the furthest Altar causes your basic attacks to burn targets for up to 114 true damage (based on champion level) over 3 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3104.png",
+    "categories": [
+      "Health",
+      "Damage",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Aegis of the Legion",
+    "description": "+30 Armor\n+30 Magic Resist",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3105.png",
+    "categories": [
+      "Magic Resist",
+      "Armor"
+    ]
+  },
+  {
+    "name": "Redemption",
+    "description": "+400 Health\n+75% Base Health Regen \n+75% Base Mana Regen \n+10% Cooldown Reduction\n\nUNIQUE Passive: +10% Heal and Shield Power\nUNIQUE Active: Target an area within 5500 range. After 2.5 seconds, call down a beam of light to heal allies for 130 (+20 per level of target) Health, burn enemy champions for 10% of their maximum Health as true damage and deal 250 true damage to enemy minions (120 second cooldown).\n\nCan be used while dead.\n\n(Half effect if the target has been affected by another Redemption recently.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3107.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Cooldown Reduction",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Fiendish Codex",
+    "description": "+30 Ability Power\n\nUNIQUE Passive: +10% Cooldown Reduction",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3108.png",
+    "categories": [
+      "Ability Power",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Knight's Vow",
+    "description": "+400 Health\n+100% Base Health Regen \n+20 Armor\n\nUNIQUE Active: Designate an allied champion as your Partner (90 second cooldown).\nUNIQUE Passive: If your Partner is nearby, gain +40 additional Armor and +15% Movement Speed towards them.\nUNIQUE Passive: If your Partner is nearby, heal for 12% of the damage your Partner deals to champions and redirect 12% of the damage your Partner takes from champions to you as true damage (healing and damage redirection are reduced by 50% if you are ranged).\n\n(Champions can only be linked by one Knight's Vow at a time.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3109.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Armor",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Frozen Heart",
+    "description": "+90 Armor\n+20% Cooldown Reduction\n+400 Mana\n\nUNIQUE Aura: Reduces the Attack Speed of nearby enemies by 15%.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3110.png",
+    "categories": [
+      "Armor",
+      "Cooldown Reduction",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Mercury's Treads",
+    "description": "+25 Magic Resist\n\nUNIQUE Passive - Enhanced Movement: +45 Movement Speed\nUNIQUE Passive - Tenacity: Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 30%.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3111.png",
+    "categories": [
+      "Magic Resist",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Guardian's Orb",
+    "description": "+150 Health\n+30 Ability Power\n+10 Mana regen per 5 seconds\n\nLimited to 1 Guardian's Item.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3112.png",
+    "categories": [
+      "Health",
+      "Ability Power",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Aether Wisp",
+    "description": "+30 Ability Power\n\nUNIQUE Passive: +5% Movement Speed",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3113.png",
+    "categories": [
+      "Ability Power",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Forbidden Idol",
+    "description": "+50% Base Mana Regen \n\nUNIQUE Passive: +10% Cooldown Reduction\nUNIQUE Passive: +8% Heal and Shield Power",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3114.png",
+    "categories": [
+      "Cooldown Reduction",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Nashor's Tooth",
+    "description": "+50% Attack Speed\n+80 Ability Power\n\nUNIQUE Passive: +20% Cooldown Reduction\nUNIQUE Passive: Basic attacks deal 15 (+15% of Ability Power) bonus magic damage on hit.\n",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3115.png",
+    "categories": [
+      "Attack Speed",
+      "Ability Power",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Rylai's Crystal Scepter",
+    "description": "+300 Health\n+75 Ability Power\n\nUNIQUE Passive: Damaging spells and abilities reduce enemy movement speed by 20% for 1 second.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3116.png",
+    "categories": [
+      "Health",
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Boots of Mobility",
+    "description": "UNIQUE Passive - Enhanced Movement: +25 Movement Speed. Increases to +115 Movement Speed when out of combat for 5 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3117.png",
+    "categories": [
+      "Movement"
+    ]
+  },
+  {
+    "name": "Wicked Hatchet",
+    "description": "+20 Attack Damage\n+10% Critical Strike Chance\n\nUNIQUE Passive: Critical Strikes cause your target to bleed for an additional 60% of your bonus Attack Damage as magic damage over 3 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3122.png",
+    "categories": [
+      "Damage",
+      "Critical Strike"
+    ]
+  },
+  {
+    "name": "Executioner's Calling",
+    "description": "+15 Attack Damage\n\nUNIQUE Passive - Executioner: Physical damage inflicts Grievous Wounds on enemy champions for 3 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3123.png",
+    "categories": [
+      "Damage"
+    ]
+  },
+  {
+    "name": "Guinsoo's Rageblade",
+    "description": "+35 Attack Damage\n+50 Ability Power\n+25% Attack Speed\n\nPassive: Basic attacks deal an additional 15 magic damage on hit.\nUNIQUE Passive: Basic attacks grant +8% Attack Speed, +3 Attack Damage, and +4 Ability Power for 5 seconds (stacks up to 6 times). While you have 6 stacks, gain Guinsoo's Rage.\n\nGuinsoo's Rage: Every other basic attack will trigger on hit effects an additional time.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3124.png",
+    "categories": [
+      "Damage",
+      "Attack Speed",
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Caulfield's Warhammer",
+    "description": "+25 Attack Damage\n\nUNIQUE Passive: +10% Cooldown Reduction",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3133.png",
+    "categories": [
+      "Damage",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Serrated Dirk",
+    "description": "+25 Attack Damage\n\nUNIQUE Passive: +10 Lethality\nUNIQUE Passive: +20 Movement Speed out of Combat.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3134.png",
+    "categories": [
+      "Damage",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Void Staff",
+    "description": "+80 Ability Power\n\nUNIQUE Passive: +35% Magic Penetration.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3135.png",
+    "categories": [
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Haunting Guise",
+    "description": "+25 Ability Power\n+200 Health\n\nUNIQUE Passive - Eyes of Pain: +15 Magic Penetration",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3136.png",
+    "categories": [
+      "Health",
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Dervish Blade",
+    "description": "+50% Attack Speed\n+45 Magic Resist\n+10% Cooldown Reduction\n\nUNIQUE Active - Quicksilver: Removes all debuffs, and if the champion is melee, also grants +50% bonus Movement Speed for 1 second (90 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3137.png",
+    "categories": [
+      "Magic Resist",
+      "Attack Speed",
+      "Cooldown Reduction",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Mercurial Scimitar",
+    "description": "+65 Attack Damage\n+35 Magic Resist\n+10% Life Steal\n\nUNIQUE Active - Quicksilver: Removes all crowd control debuffs and also grants +50% bonus Movement Speed for 1 second (90 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3139.png",
+    "categories": [
+      "Magic Resist",
+      "Damage",
+      "Life Steal",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Quicksilver Sash",
+    "description": "+30 Magic Resist\n\nUNIQUE Active - Quicksilver: Removes all crowd control debuffs (90 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3140.png",
+    "categories": [
+      "Magic Resist"
+    ]
+  },
+  {
+    "name": "Youmuu's Ghostblade",
+    "description": "+60 Attack Damage\n+10% Cooldown Reduction\n\nUNIQUE Passive: +20 Lethality\nUNIQUE Passive: +20 Movement Speed out of Combat\nUNIQUE Active: Grants +20% Movement Speed for 6 seconds (45 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3142.png",
+    "categories": [
+      "Damage",
+      "Cooldown Reduction",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Randuin's Omen",
+    "description": "+500 Health\n+60 Armor\n-10% Damage taken from Critical Strikes\n\nUNIQUE Passive - Cold Steel: When hit by basic attacks, reduces the attacker's Attack Speed by 15% (1 second duration).\nUNIQUE Active: Slows the Movement Speed of nearby enemy units by 35% for 4 seconds (60 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3143.png",
+    "categories": [
+      "Health",
+      "Armor"
+    ]
+  },
+  {
+    "name": "Bilgewater Cutlass",
+    "description": "+25 Attack Damage\n+10% Life Steal\n\nUNIQUE Active: Deals 100 magic damage and slows the target champion's Movement Speed by 25% for 2 seconds (90 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3144.png",
+    "categories": [
+      "Damage",
+      "Life Steal"
+    ]
+  },
+  {
+    "name": "Hextech Revolver",
+    "description": "+40 Ability Power\n\nUNIQUE Passive - Magic Bolt: Damaging an enemy champion with a basic attack shocks them for 50 - 125 bonus magic damage (40 second cooldown, shared with other Hextech items).\n\nMagic Bolt's cooldown is reduced by Active Item cooldown reduction.\n\n(Damage scales based on level. Hextech effects can trigger other item spell effects.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3145.png",
+    "categories": [
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Hextech Gunblade",
+    "description": "+40 Attack Damage\n+80 Ability Power\n\nUNIQUE Passive: Heal for 15% of damage dealt. This is 33% as effective for Area of Effect damage.\nUNIQUE Active - Lightning Bolt: Deals 250 (+30% of Ability Power) magic damage and slows the target champion's Movement Speed by 40% for 2 seconds (40 second cooldown, shared with other Hextech items).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3146.png",
+    "categories": [
+      "Damage",
+      "Life Steal",
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Duskblade of Draktharr",
+    "description": "+65 Attack Damage\n\nUNIQUE Passive: +15 Lethality\nUNIQUE Passive: +20 Movement Speed out of Combat.\nUNIQUE Passive - Nightstalker: After being unseen for at least 1 second, your next Basic Attack against an enemy champion will deal 50 (+200% Lethality) true damage on-hit (lasts for 4 seconds after being seen by an enemy champion).\nUNIQUE Passive - Blackout: When spotted by an enemy ward, causes a blackout for 8 seconds, disabling all nearby enemy wards and traps (90 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3147.png",
+    "categories": [
+      "Damage",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Liandry's Torment",
+    "description": "+80 Ability Power\n+300 Health\n\nUNIQUE Passive - Eyes of Pain: +15 Magic Penetration\nUNIQUE Passive: Spells burn enemies for 3 seconds, dealing bonus magic damage equal to 2% of their current Health per second. Burn damage is doubled against movement-impaired units.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3151.png",
+    "categories": [
+      "Health",
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Hextech Protobelt-01",
+    "description": "+300 Health\n+60 Ability Power\n+10% Cooldown Reduction\n\nUNIQUE Active - Fire Bolt: Dash forward and unleash a nova of fire bolts that deal 75 - 150 (+25% of your Ability Power) as magic damage (40 second cooldown, shared with other Hextech items).\n\nChampions and Monsters hit by multiple fire bolts take 10% damage per additional bolt.\n\n(This dash cannot pass through terrain.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3152.png",
+    "categories": [
+      "Health",
+      "Ability Power",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Blade of the Ruined King",
+    "description": "+25 Attack Damage\n+40% Attack Speed\n+10% Life Steal\n\nUNIQUE Passive: Basic attacks deal 8% of the target's current Health in bonus physical damage (max 60 vs. monsters and minions) on hit. Life Steal applies to this damage.\nUNIQUE Active: Deals 10% of target champion's maximum Health (min. 100) as physical damage, heals for the same amount, and steals 25% of the target's Movement Speed for 3 seconds (90 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3153.png",
+    "categories": [
+      "Damage",
+      "Attack Speed",
+      "Life Steal",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Hexdrinker",
+    "description": "+20 Attack Damage\n+35 Magic Resist\n\nUNIQUE Passive - Lifeline: Upon taking magic damage that would reduce Health below 30%, grants a shield that absorbs 110 to 280 (based on level) magic damage for 5 seconds (90 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3155.png",
+    "categories": [
+      "Magic Resist",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Maw of Malmortius",
+    "description": "+50 Attack Damage\n+45 Magic Resist\n+10% Cooldown Reduction\n\nUNIQUE Passive - Lifeline: Upon taking magic damage that would reduce Health below 30%, grants a shield that absorbs magic damage equal to 300 + 1 per bonus Magic Resistance for 5 seconds (90 second cooldown).\nLifegrip: When Lifeline triggers, gain +20 Attack Damage, +10% Spell Vamp and +10% Life Steal until out of combat.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3156.png",
+    "categories": [
+      "Magic Resist",
+      "Damage",
+      "Life Steal",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Zhonya's Hourglass",
+    "description": "+70 Ability Power\n+45 Armor\n+10% Cooldown Reduction\n\nUNIQUE Active - Stasis: Champion becomes invulnerable and untargetable for 2.5 seconds, but is unable to move, attack, cast spells, or use items during this time (120 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3157.png",
+    "categories": [
+      "Armor",
+      "Ability Power",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Ionian Boots of Lucidity",
+    "description": "UNIQUE Passive: +10% Cooldown Reduction\nUNIQUE Passive - Enhanced Movement: +45 Movement Speed\nUNIQUE Passive: Reduces Summoner Spell cooldowns by 10%\n\n\n''This item is dedicated in honor of Ionia's victory over Noxus in the Rematch for the Southern Provinces on 10 December, 20 CLE.''",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3158.png",
+    "categories": [
+      "Cooldown Reduction",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Morellonomicon",
+    "description": "+100 Ability Power\n+400 Mana\n\nUNIQUE Passive: +20% Cooldown Reduction\nUNIQUE Passive: Dealing magic damage to champions below 35% Health inflicts Grievous Wounds for 8 seconds.\nUNIQUE Passive: Kills and Assists restore 20% of your maximum Mana.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3165.png",
+    "categories": [
+      "Ability Power",
+      "Cooldown Reduction",
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Moonflair Spellblade",
+    "description": "+50 Ability Power\n+50 Armor\n+50 Magic Resist\n\nUNIQUE Passive - Tenacity: Reduces the duration of stuns, slows, taunts, fears, silences, blinds, polymorphs, and immobilizes by 35%.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3170.png",
+    "categories": [
+      "Magic Resist",
+      "Armor",
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "Athene's Unholy Grail",
+    "description": "+40 Ability Power\n+25 Magic Resist\n+20% Cooldown Reduction\n+75% Base Mana Regen \n\nUNIQUE Passive: Gain 20% of the premitigation damage dealt to champions as Blood Charges, up to 100 - 250  max. Healing or shielding another ally consumes charges to heal them, up to the original effect amount.\nUNIQUE Passive - Harmony: Grants bonus % Base Health Regen equal to your bonus % Base Mana Regen.\n\n(Maximum amount of Blood Charges stored is based on level. Healing amplification is applied to the total heal value.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3174.png",
+    "categories": [
+      "Magic Resist",
+      "Health Regen",
+      "Ability Power",
+      "Cooldown Reduction",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Sanguine Blade",
+    "description": "+45 Attack Damage\n+10% Life Steal\n\nUNIQUE Passive: Basic attacks grant +6 Attack Damage and +1% Life Steal for 8 seconds on hit (effect stacks up to 5 times).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3181.png",
+    "categories": [
+      "Damage",
+      "Life Steal"
+    ]
+  },
+  {
+    "name": "Guardian's Hammer",
+    "description": "+150 Health\n+15 Attack Damage\n+10% Life Steal\n\nLimited to 1 Guardian's Item.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3184.png",
+    "categories": [
+      "Health",
+      "Damage",
+      "Life Steal"
+    ]
+  },
+  {
+    "name": "The Lightbringer",
+    "description": "+30 Attack Damage\n+30% Critical Strike Chance\n\nUNIQUE Passive: Critical Strikes cause enemies to bleed for an additional 90% of bonus Attack Damage as magic damage over 3 seconds and reveal them for the duration.\nUNIQUE Passive - Trap Detection: Nearby stealthed enemy traps are revealed.\nUNIQUE Active - Hunter's Sight: A stealth-detecting mist grants vision in the target area for 5 seconds, revealing enemy champions that enter for 3 seconds (60 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3185.png",
+    "categories": [
+      "Damage",
+      "Critical Strike"
+    ]
+  },
+  {
+    "name": "Arcane Sweeper",
+    "description": "+225 Health\n+250 Mana\n+25 Armor\n+20% Cooldown Reduction\n\nUNIQUE Passive - Trap Detection: Nearby stealthed enemy traps are revealed.\nUNIQUE Active - Hunter's Sight: A stealth-detecting mist grants vision in the target area for 5 seconds, revealing enemy champions that enter for 3 seconds (60 second cooldown).",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3187.png",
+    "categories": [
+      "Health",
+      "Armor",
+      "Cooldown Reduction",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Locket of the Iron Solari",
+    "description": "+30 Armor\n+60 Magic Resist\n\nUNIQUE Active: Grants a decaying shield to nearby allies for 2.5 seconds that absorbs up to 35 (+35 per level) damage (90 second cooldown).\n\n(Half effect if the target has been affected by another Locket of the Iron Solari recently.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3190.png",
+    "categories": [
+      "Magic Resist",
+      "Armor"
+    ]
+  },
+  {
+    "name": "Seeker's Armguard",
+    "description": "+30 Armor\n+20 Ability Power\n\nUNIQUE Passive: Killing a unit grants 0.5 bonus Armor and Ability Power. This bonus stacks up to 30 times.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3191.png",
+    "categories": [
+      "Armor",
+      "Ability Power"
+    ]
+  },
+  {
+    "name": "The Hex Core mk-1",
+    "description": "+3 Ability Power per level\n+15 Mana per level\n\nUNIQUE Passive - Progress: Viktor can upgrade one of his basic spells.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3196.png",
+    "categories": [
+      "Ability Power",
+      "Mana"
+    ]
+  },
+  {
+    "name": "The Hex Core mk-2",
+    "description": "+6 Ability Power per level\n+20 Mana per level\n\nUNIQUE Passive - Progress: Viktor can upgrade one of his basic spells.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3197.png",
+    "categories": [
+      "Ability Power",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Perfect Hex Core",
+    "description": "+10 Ability Power per level\n+25 Mana per level\n\nUNIQUE Passive - Glorious Evolution: Viktor has reached the pinnacle of his power, upgrading Chaos Storm in addition to his basic spells.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3198.png",
+    "categories": [
+      "Ability Power",
+      "Mana"
+    ]
+  },
+  {
+    "name": "Spectre's Cowl",
+    "description": "+250 Health\n+30 Magic Resist\n\nUNIQUE Passive: Grants 150% Base Health Regen for up to 10 seconds after taking damage from an enemy champion.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3211.png",
+    "categories": [
+      "Health",
+      "Magic Resist",
+      "Health Regen"
+    ]
+  },
+  {
+    "name": "Mikael's Crucible",
+    "description": "+35 Magic Resist\n+10% Cooldown Reduction\n+100% Base Mana Regen \n\nUNIQUE Passive: +20% Heal and Shield Power\nUNIQUE Passive - Harmony: Grants bonus % Base Health Regen equal to your bonus % Base Mana Regen.\nUNIQUE Active: Cleanses all stuns, roots, taunts, fears, silences, and slows on an allied champion and grants them slow immunity for 2 seconds (120 second cooldown).\n\nSuccessfully cleansing an effect this way grants the ally 40% movement speed for 2 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3222.png",
+    "categories": [
+      "Magic Resist",
+      "Health Regen",
+      "Cooldown Reduction",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Poacher's Dirk",
+    "description": "+15 Attack Damage\n\nUNIQUE Passive: +20 Movement Speed out of Combat\nUNIQUE Passive: After poaching 3 large monsters from the enemy jungle (60 second cooldown), transforms into a Serrated Dirk.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3252.png",
+    "categories": [
+      "Damage",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Luden's Echo",
+    "description": "+100 Ability Power\n+10% Movement Speed\n\nUNIQUE Passive - Echo: Gain charges upon moving or casting. At 100 charges, the next damaging spell hit expends all charges to deal 100 (+10% of Ability Power) bonus magic damage to up to 4 targets on hit.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3285.png",
+    "categories": [
+      "Ability Power",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Ancient Coin",
+    "description": "+25% Base Mana Regen \n+5% Cooldown Reduction\n\nUNIQUE Passive - Favor: Being near a minion's death without dealing the killing blow grants 4 Gold and 5 Health.\n\nLimited to 1 Gold Income Item.\n\n''Gold dust rises from the desert and clings to the coin.'' - Historian Shurelya, 11 November, 23 CLE",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3301.png",
+    "categories": [
+      "Cooldown Reduction",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Relic Shield",
+    "description": "+75 Health\n+2 Gold per 10 seconds \n\nUNIQUE Passive - Spoils of War: Melee basic attacks execute minions below 195 (+5 per level) Health. Killing a minion heals the owner and the nearest allied champion for 15 Health and grants them kill Gold.\n\nThese effects require a nearby ally. Recharges every 40 seconds. Max 2 charges. \n\nLimited to 1 Gold Income Item.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3302.png",
+    "categories": [
+      "Health"
+    ]
+  },
+  {
+    "name": "Spellthief's Edge",
+    "description": "+5 Ability Power\n+2 Gold per 10 seconds\n+25% Base Mana Regen \n\nUNIQUE Passive - Tribute: Spells and basic attacks against champions or buildings deal 10 additional damage and grant 8 Gold. This can occur up to 3 times every 30 seconds. Killing a minion disables this passive for 12 seconds.\n\nLimited to 1 Gold Income Item.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3303.png",
+    "categories": [
+      "Ability Power",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Face of the Mountain",
+    "description": "+450 Health\n+100% Base Health Regen \n+10% Cooldown Reduction\n+2 Gold per 10 seconds \n\nUNIQUE Passive - Spoils of War: Melee basic attacks execute minions below 320 (+20 per level) Health. Killing a minion heals the owner and the nearest allied champion for 50 Health and grants them kill Gold. These effects require a nearby ally. Recharges every 30 seconds. Max 4 charges.\nUNIQUE Active: Grant a shield to you and an ally equal to 10% of your maximum Health for 4 seconds. After 4 seconds, the shields explode to slow nearby enemies by 40% for 2 seconds (60 second cooldown).  Automatically targets the most wounded ally if cast upon self.\n\nLimited to 1 Gold Income Item.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3401.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Ardent Censer",
+    "description": "+60 Ability Power\n+10% Cooldown Reduction\n+50% Base Mana Regen \n\nUNIQUE Passive: +10% Heal and Shield Power\nUNIQUE Passive: +8% Movement Speed\nUNIQUE Passive: Your heals and shields on another allied champion grant them 20% Attack Speed and their attacks drain 20 health on-hit for 6 seconds.\n\n(This does not include regeneration effects or effects on yourself.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3504.png",
+    "categories": [
+      "Ability Power",
+      "Cooldown Reduction",
+      "Mana Regen",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Essence Reaver",
+    "description": "+70 Attack Damage\n+20% Critical Strike Chance\n\nUNIQUE Passive: +10% Cooldown Reduction\nUNIQUE Passive: Gain increasingly more Cooldown Reduction from Critical Strike Chance provided by other sources (maximum +20% additional Cooldown Reduction at 30% Critical Strike Chance).\nUNIQUE Passive: Critical strikes restore 3% of your maximum Mana pool.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3508.png",
+    "categories": [
+      "Damage",
+      "Critical Strike",
+      "Cooldown Reduction",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Zz'Rot Portal",
+    "description": "+55 Armor\n+55 Magic Resist\n+125% Base Health Regen \n\nUNIQUE Passive - Point Runner: Builds up to +20% Movement Speed over 2 seconds while near turrets, fallen turrets and Void Gates.\nUNIQUE Active: Spawns a Void Gate for 150 seconds (150 second cooldown).\n\nEvery 4 seconds the gate makes a Voidspawn. The first and every fourth Voidspawn gains 15% of maximum Health as damage.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3512.png",
+    "categories": [
+      "Magic Resist",
+      "Health Regen",
+      "Armor",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Stalker's Blade",
+    "description": "Limited to 1 Jungle item\n\n+10% Life Steal vs. Monsters\n+180% Base Mana Regen while in Jungle\n\nUNIQUE Passive - Chilling Smite: Smite can be cast on enemy champions, dealing reduced true damage and stealing 20% Movement Speed for 2 seconds. \nUNIQUE Passive - Tooth / Nail: Basic attacks deal 25 bonus damage vs. monsters. Damaging a monster with a spell or attack steals 30 Health over 5 seconds. Killing monsters grants special bonus experience.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3706.png",
+    "categories": [
+      "Life Steal",
+      "Mana Regen",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Tracker's Knife",
+    "description": "Limited to 1 Jungle item\n\n+10% Life Steal vs. Monsters\n+180% Base Mana Regen while in Jungle\n\nUNIQUE Passive - Tooth / Nail: Basic attacks deal 25 bonus damage vs. monsters. Damaging a monster with a spell or attack steals 30 Health over 5 seconds. Killing monsters grants special bonus experience.\nUNIQUE Active - Warding: Consumes a charge to place a Stealth Ward that reveals the surrounding area for 150 seconds. Holds up to 2 charges which refill upon visiting the shop. \n\n(A player may only have 3 Stealth Wards on the map at one time. Unique Passives with the same name don't stack.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3711.png",
+    "categories": [
+      "Life Steal",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Skirmisher's Sabre",
+    "description": "Limited to 1 Jungle item\n\n+10% Life Steal vs. Monsters\n+180% Base Mana Regen while in Jungle\n\nPassive - Challenging Smite: Smite can be cast on enemy champions, marking them for 4 seconds. While marked, basic attacks deal bonus true damage over 3 seconds, you have vision of them, and their damage to you is reduced by 20%.\nUNIQUE Passive - Tooth / Nail: Basic attacks deal 25 bonus damage vs. monsters. Damaging a monster with a spell or attack steals 30 Health over 5 seconds. Killing monsters grants special bonus experience.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3715.png",
+    "categories": [
+      "Life Steal",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Dead Man's Plate",
+    "description": "+500 Health\n+50 Armor\n\nUNIQUE Passive - Dreadnought: While moving, build stacks of Momentum, increasing movement speed by up to 60 at 100 stacks. Momentum quickly decays while under the effects of a stun, taunt, fear, polymorph, or immobilize effect, and slowly decays while slowed.\nUNIQUE Passive - Crushing Blow: Basic attacks discharge all Momentum, dealing 1 physical damage per 2 stacks. If 100 stacks are discharged, damage is doubled and the target is slowed by 50% decaying over 1 second (melee only).\n\n''There's only one way you'll get this armor from me...'' - forgotten namesake",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3742.png",
+    "categories": [
+      "Health",
+      "Armor",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Titanic Hydra",
+    "description": "+450 Health\n+35 Attack Damage\n+100% Base Health Regen \n\nUNIQUE Passive - Cleave: Basic attacks deal 5 + 1% of your maximum health as bonus physical damage  to your target and 40 + 2.5% of your maximum health as physical damage  to other enemies in a cone on hit.\nUNIQUE Active - Crescent: Cleave damage to all targets is increased to 40 + 10% of your maximum health as bonus physical damage  in a larger cone for your next basic attack (20 second cooldown).\n\n(Unique Passives with the same name don't stack.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3748.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Damage"
+    ]
+  },
+  {
+    "name": "Bami's Cinder",
+    "description": "+280 Health  \n\nUNIQUE Passive - Immolate: Deals 5 (+1 per champion level) magic damage per second to nearby enemies. Deals 50% bonus damage to minions and monsters.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3751.png",
+    "categories": [
+      "Health"
+    ]
+  },
+  {
+    "name": "Righteous Glory",
+    "description": "+500 Health\n+300 Mana\n+100% Base Health Regen \n\nUNIQUE Passive - Eternity: 15% of damage taken from champions is gained as Mana. Spending Mana restores 20% of the cost as Health, up to 25 per spell cast.  \nUNIQUE Active: Grants +75% Movement Speed when moving towards enemies or enemy turrets for 4 seconds. After 3 seconds, a shockwave is emitted, slowing nearby enemy champion Movement Speed by 75% for 2 second(s) (90 second cooldown).\n\nThis effect may be reactivated early to instantly release the shockwave.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3800.png",
+    "categories": [
+      "Health",
+      "Health Regen",
+      "Mana",
+      "Mana Regen",
+      "Movement"
+    ]
+  },
+  {
+    "name": "Crystalline Bracer",
+    "description": "+200 Health\n+50% Base Health Regen ",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3801.png",
+    "categories": [
+      "Health",
+      "Health Regen"
+    ]
+  },
+  {
+    "name": "Lost Chapter",
+    "description": "+25 Ability Power\n+300 Mana\n\nUNIQUE Passive: Upon levelling up, restores 20% of your maximum Mana over 3 seconds.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3802.png",
+    "categories": [
+      "Ability Power",
+      "Mana",
+      "Mana Regen"
+    ]
+  },
+  {
+    "name": "Death's Dance",
+    "description": "+75 Attack Damage\n+10% Cooldown Reduction\n\nUNIQUE Passive: Dealing physical damage heals for 15% of the damage dealt. This is 33% as effective for Area of Effect damage.\nUNIQUE Passive: 15% of damage taken is dealt as a Bleed effect over 3 seconds instead.",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3812.png",
+    "categories": [
+      "Damage",
+      "Life Steal",
+      "Cooldown Reduction"
+    ]
+  },
+  {
+    "name": "Edge of Night",
+    "description": "+60 Attack Damage\n+35 Magic Resist\n\nUNIQUE Passive: +15 Lethality\nUNIQUE Passive: +20 Movement Speed out of Combat\nUNIQUE Active - Night's Veil: Channel for 1.5 second to grant a spell shield that blocks the next enemy ability. Lasts for 10 seconds (45 second cooldown).\n\n(Can move while channeling, but taking damage breaks the channel.)",
+    "image_url": "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/item/3814.png",
+    "categories": [
+      "Magic Resist",
+      "Damage",
+      "Movement"
+    ]
+  }
+]
