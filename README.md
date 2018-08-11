@@ -2,6 +2,8 @@
 
 This project builds a Flask web server that hosts a League of Legends Item Catalog website, backed by a SQLite database. Users can login with Google, add items, edit items & delete items.
 
+![alt text](./static/images/screenshot.png "Screenshot of Website")
+
 ## Installation
 
 1. Install the appropriate version of [VirtualBox 5.1](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1) for your operating system.
@@ -38,8 +40,8 @@ This project builds a Flask web server that hosts a League of Legends Item Catal
 
 In the virtual machine, run:
 
-    ```sh
-    python app.py
-    ```
+```sh
+python app.py
+```
 
 You should be able to access the website at http://localhost:5000.
