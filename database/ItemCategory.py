@@ -3,18 +3,21 @@ from sqlalchemy.orm import relationship
 import json
 from .Base import Base
 
+
 class ItemCategory(Base):
-  __tablename__ = 'item_category'
+    __tablename__ = 'item_category'
 
-  id = Column(Integer, primary_key=True)
-  name = Column(String(128), nullable=False, unique=True)
+    id = Column(Integer, primary_key=True)
+    name = Column(String(128), nullable=False, unique=True)
 
-  def serialize(self):
-    return {
-      'id': self.id,
-      'name': self.name,
-    }
+    def serialize(self):
+        '''
+        Returns a JSON serializable dictionary of the instance
+        '''
+        return {
+            'id': self.id,
+            'name': self.name,
+        }
 
-  def __str__(self):
-    return json.dumps(self.serialize(), indent=2)
-    
+    def __str__(self):
+        return json.dumps(self.serialize(), indent=2)

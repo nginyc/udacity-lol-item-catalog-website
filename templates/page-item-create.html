@@ -1,10 +1,17 @@
 {% from "item-form.html" import item_form %}
-{% extends "base.html" %}
+{% extends "base.html" %} 
 
 {% block header %}
-<h1>Add an Item</h1> 
-{% endblock %}
+<h1>Add an Item</h1>
+{% endblock %} 
 
 {% block main %}
-{{item_form(action=url_for('create_item_request', csrf_token=csrf_token), item_categories=item_categories)}}
+{{
+    item_form(
+    action=url_for(
+        'create_item_request',
+        csrf_token=csrf_token
+    ), 
+    item_categories=item_categories
+)}}
 {% endblock %}

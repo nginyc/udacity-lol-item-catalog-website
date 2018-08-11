@@ -2,72 +2,72 @@
 
 {% block styles %}
 <style>
-  .items_page {
-    display: flex;
-  }
+    .items_page {
+        display: flex;
+    }
 
-  .items_page ._categories_box {
-    padding: 8px;
-    width: 20%;
-    min-width: 200px;
-  }
+    .items_page ._categories_box {
+        padding: 8px;
+        width: 20%;
+        min-width: 200px;
+    }
 
-  .items_page ._categories_box ._title {
-    font-weight: bold;
-    font-size: 20px;
-  }
+    .items_page ._categories_box ._title {
+        font-weight: bold;
+        font-size: 20px;
+    }
 
-  .items_page ._categories_box ._nav {
-    border-left: 2px solid #96732b;
-    padding-left: 8px;
-    margin-left: 8px;
-    margin-top: 8px;
-  }
+    .items_page ._categories_box ._nav {
+        border-left: 2px solid #96732b;
+        padding-left: 8px;
+        margin-left: 8px;
+        margin-top: 8px;
+    }
 
-  .items_page ._categories_box ._nav ._category {
-    display: block;
-  }
+    .items_page ._categories_box ._nav ._category {
+        display: block;
+    }
 
-  .items_page ._actions_box {
-    padding: 12px 0;
-  }
-  
-  .items_page ._actions_box ._link {
-    display: block;
-    font-weight: bold;
-  }
+    .items_page ._actions_box {
+        padding: 12px 0;
+    }
 
-  .items_page ._items_outer_box {
-    flex: 1;
-    padding: 12px;
-  }
+    .items_page ._actions_box ._link {
+        display: block;
+        font-weight: bold;
+    }
 
-  .items_page ._items_box {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .items_page ._item {
-    width: 200px;
-  }
+    .items_page ._items_outer_box {
+        flex: 1;
+        padding: 12px;
+    }
 
-  .items_page ._items_box ._item ._link {
-    display: flex;
-    align-items: center;
-  }
+    .items_page ._items_box {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-  .items_page ._items_box ._item ._link ._img {
-    border-radius: 50%;
-    max-width: 48px;
-    max-height: 48px; 
-  }
+    .items_page ._item {
+        width: 200px;
+    }
 
-  .items_page ._items_box ._item ._link ._name {
-    padding: 12px;
-    flex: 1;
-  }
+    .items_page ._items_box ._item ._link {
+        display: flex;
+        align-items: center;
+    }
+
+    .items_page ._items_box ._item ._link ._img {
+        border-radius: 50%;
+        max-width: 48px;
+        max-height: 48px;
+    }
+
+    .items_page ._items_box ._item ._link ._name {
+        padding: 12px;
+        flex: 1;
+    }
 </style>
-{% endblock %}
+{% endblock %} 
 
 {% block header %}
 <h1>{{title}}</h1>
@@ -75,32 +75,39 @@
 
 {% block main %}
 <div class="items_page">
-  <div class="_categories_box">
-    <div class="_title">Categories</div>
-    <nav class="_nav">
-      {% for cat in item_categories %}
-      <a class="_category" 
-        href="{{ url_for('items_page', category_id=cat.id) }}">{{cat.name}}</a>
-      {% endfor %}
-    </nav>
-    <div class="_actions_box">
-      {% if user %}
-      <a class="_link" href="{{ url_for('create_item_page') }}">Add Item</a>
-      {% endif %}
-      <a class="_link" href="{{ url_for('items_json') }}">Get Items JSON</a>
+    <div class="_categories_box">
+        <div class="_title">Categories</div>
+        <nav class="_nav">
+            {% for cat in item_categories %}
+            <a class="_category"
+                href="{{ url_for('items_page', category_id=cat.id) }}">
+                {{cat.name}}
+            </a>
+            {% endfor %}
+        </nav>
+        <div class="_actions_box">
+            {% if user %}
+            <a class="_link" href="{{ url_for('create_item_page') }}">
+                Add Item
+            </a>
+            {% endif %}
+            <a class="_link" href="{{ url_for('items_json') }}">
+                Get Items JSON
+            </a>
+        </div>
     </div>
-  </div>
-  <div class="_items_outer_box">
-    <ul class="_items_box">
-        {% for item in items %}
-        <li class="_item">
-          <a class="_link" href="{{ url_for('item_page', item_id=item.id) }}">
-            <img class="_img" src={{item.image_url}} />
-            <span class="_name">{{item.name}}</span>
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-  </div>
+    <div class="_items_outer_box">
+        <ul class="_items_box">
+            {% for item in items %}
+            <li class="_item">
+                <a class="_link"
+                    href="{{ url_for('item_page', item_id=item.id) }}">
+                    <img class="_img" src={{item.image_url}} />
+                    <span class="_name">{{item.name}}</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
 {% endblock %}

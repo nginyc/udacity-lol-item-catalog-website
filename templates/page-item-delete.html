@@ -1,24 +1,29 @@
 {% from "item-form.html" import item_form %}
 {% extends "base.html" %}
 
-
 {% block styles %}
 <style>
-  .delete_page {
-    padding: 0 8px;
-  }
+    .delete_page {
+        padding: 0 8px;
+    }
 </style>
 {% endblock %}
 
 {% block header %}
-<h1>Confirm Delete Item?</h1>  
+<h1>Confirm Delete Item?</h1>
 {% endblock %}
 
-{% block main %} 
+{% block main %}
 <div class="delete_page">
-  <form action="{{ url_for('delete_item_request', item_id=item.id, csrf_token=csrf_token) }}" method="POST">
-    <p>Are you sure you want to delete item "{{item.name}}"?</p>
-    <button type="submit">Confirm</button>
-  </form>
+    <form action="{{
+        url_for(
+            'delete_item_request',
+            item_id=item.id,
+            csrf_token=csrf_token
+        )
+    }}" method="POST">
+        <p>Are you sure you want to delete item "{{item.name}}"?</p>
+        <button type="submit">Confirm</button>
+    </form>
 </div>
 {% endblock %}
