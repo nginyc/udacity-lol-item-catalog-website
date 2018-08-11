@@ -1,6 +1,6 @@
 # League of Legends Item Catalog
 
-This project builds a Flask web server that hosts a League of Legends Item Catalog website, backed by a MySQL database. Users can login with Google, add items, edit items & delete items.
+This project builds a Flask web server that hosts a League of Legends Item Catalog website, backed by a SQLite database. Users can login with Google, add items, edit items & delete items.
 
 ## Installation
 
