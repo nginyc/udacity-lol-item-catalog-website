@@ -1,3 +1,5 @@
+{% from "main-menu.html" import main_menu %}
+
 <!doctype html>
 <html lang="en">
 
@@ -5,30 +7,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="google-signin-client_id" content="{{google_oauth_client_id}}">
-  {% block meta %}{% endblock %}
   <title>League of Legends Item Catalog</title>
   <link rel="icon" href="{{ url_for('static', filename='./images/icon.png') }}">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='./styles/base.css') }}">
-  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script src="https://apis.google.com/js/platform.js?onload=onGapiLoadCallback" async defer></script>
   <script src="{{ url_for('static', filename='./scripts/base.js') }}"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
-  {% block scripts %}{% endblock %}
+  {% block styles %}{% endblock %}
 </head>
 
 <body>
-  <nav>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
-    <a href="{{ url_for('items_page') }}">All Items</a>
-  </nav>
   <header>
+    {{main_menu(user)}}
     {% with messages = get_flashed_messages() %}
     {% if messages %}
     <ul>
     {% for message in messages %}
-      <li>{{ message }}</li>
+      <li class="flash_message">{{ message }}</li>
     {% endfor %}
     </ul>
     {% endif %}

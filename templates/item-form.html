@@ -1,7 +1,7 @@
 {% macro item_form(action, item_categories,
   item_name='', item_image_url='', item_description='',
   item_category_ids=[]) %}
-<form action="{{action}}" method="POST">
+<form class="item_form" action="{{action}}" method="POST">
   <div class="form-group">
     <label for="name">Name</label>
     <input type="text" name="name" value="{{item_name}}" placeholder="Item Name..."/>

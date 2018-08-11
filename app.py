@@ -7,12 +7,33 @@ from config import GOOGLE_OAUTH_CLIENT_ID, GOOGLE_OAUTH_CLIENT_SECRET, APP_SECRE
   SQLITE_DB_URL
   
 from utils import upsert_user, get_item_categories, create_item, \
-  get_items, get_item, delete_item, update_item
+  get_items, get_item, delete_item, update_item, get_user
 from database import Database, User, Item, ItemCategory, ItemToItemCategory
 
 db = Database(SQLITE_DB_URL)
 
 app = Flask(__name__)
+
+@app.context_processor
+def inject_config():
+  return {
+    'google_oauth_client_id': GOOGLE_OAUTH_CLIENT_ID
+  }
+
+@app.context_processor
+def inject_user():
+  if 'user_id' not in session:
+    return {
+      'user': None
+    }
+
+  db.connect()
+  user = get_user(db.session, user_id=session['user_id'])
+  db.disconnect() 
+      
+  return {
+    'user': user
+  }
 
 @app.route('/json', methods=['GET'])
 def json():
@@ -41,8 +62,8 @@ def items_page():
   items, cat = get_items(db.session, category_id=category_id)
   db.disconnect()
   return render_template(
-    'items.html', 
-    title=(cat.name if cat is not None else 'All Items'),
+    'page-items.html', 
+    title=('Items - {}'.format(cat.name) if cat is not None else 'All Items'),
     item_categories=item_categories,
     items=items
   )
@@ -53,7 +74,7 @@ def item_page(item_id):
   item, item_categories = get_item(db.session, item_id)
   db.disconnect()
   return render_template(
-    'item.html', 
+    'page-item.html', 
     item_categories=item_categories,
     item=item
   )
@@ -63,14 +84,14 @@ def create_item_page():
   db.connect()
   item_categories = get_item_categories(db.session)
   db.disconnect()
-  return render_template('item-create.html', item_categories=item_categories)
+  return render_template('page-item-create.html', item_categories=item_categories)
 
 @app.route('/items/<int:item_id>/delete', methods=['GET'])
 def delete_item_page(item_id):
   db.connect()
   item, _ = get_item(db.session, item_id)
   db.disconnect()
-  return render_template('item-delete.html', item=item)
+  return render_template('page-item-delete.html', item=item)
 
 @app.route('/items/<int:item_id>/update', methods=['GET'])
 def update_item_page(item_id):
@@ -79,7 +100,7 @@ def update_item_page(item_id):
   item_category_ids = [x.id for x in categories]
   item_categories = get_item_categories(db.session)
   db.disconnect()
-  return render_template('item-update.html', 
+  return render_template('page-item-update.html', 
     item=item, 
     item_category_ids=item_category_ids,
     item_categories=item_categories)
@@ -166,7 +187,6 @@ def login_with_google_request():
       
       # Save credentials in session
       session['token'] = token
-      session['user_id'] = user_id
       
   except ValueError:
       # Invalid token
@@ -182,23 +202,30 @@ def login_with_google_request():
     user_email = res_data['email']
     user_name = res_data.get('given_name', 'User')
     user_profile_image_url = res_data.get('picture', None)
-
     
     db.connect()
     user = upsert_user(db.session, user_email, user_profile_image_url, user_name)
+    session['user_id'] = user.id
     db.disconnect() 
+  
+    flash('Successfully logged in with Google!')
         
-    return jsonify({
-      'user_id': user.id,
-      'user_email': user.email,
-      'user_name': user.name,
-      'user_profile_image_url': user.profile_image_url,
-    })
+    return make_response('Successfully logged in with Google!')
       
   except ValueError:
       # Error logging in as user
       return make_response('Error logging in as user.', 500)
 
+@app.route('/logout', methods=['GET'])
+def logout():
+  if 'token' not in session:
+    return make_response('User is unauthenticated.', 401)
+
+  session.clear()
+  
+  flash('Successfully logged out.')
+
+  return redirect(url_for('items_page'))
 
 if __name__ == '__main__':
   app.secret_key = APP_SECRET

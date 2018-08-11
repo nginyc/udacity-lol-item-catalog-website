@@ -1,17 +1,10 @@
 {% from "item-form.html" import item_form %}
 {% extends "base.html" %}
 
-{% block meta %}
-{% endblock %}
-
-{% block scripts %}
-{% endblock %}
-
 {% block header %}
-<h1>League of Legends Item Catalog</h1> 
+<h1>Add an Item</h1> 
 {% endblock %}
 
 {% block main %}
-<h2>Update Item</h2>   
 {{item_form(action=url_for('create_item_request'), item_categories=item_categories)}}
 {% endblock %}

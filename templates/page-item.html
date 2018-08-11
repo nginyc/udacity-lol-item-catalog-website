@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block styles %}
+<style>
+  .item_page {
+    display: flex;
+  }
+
+  .item_page ._left_box {
+    width: 20%; 
+  }
+  
+  .item_page ._left_box ._img_box {   
+    text-align: center;
+    padding: 20px;
+  }
+
+  .item_page ._left_box ._actions_box ._link {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .item_page ._details {
+    flex: 1;
+  }
+
+  .item_page ._details ._description {
+    padding: 20px 0;
+  }
+
+  .item_page ._details ._categories_list {
+    padding: 12px 0;
+  }
+</style>
+{% endblock %}
+
+{% block header %}
+<h1>{{item.name}}</h1> 
+{% endblock %}
+
+{% block main %}
+<div class="item_page">
+  <div class="_left_box">
+    {% if item.image_url %}
+    <div class="_img_box">
+      <img src="{{item.image_url}}" />
+    </div>
+    {% endif %}
+    {% if user %}
+    <div class="_actions_box">
+      <a class="_link" href="{{ url_for('update_item_page', item_id=item.id) }}">Edit Item</a>
+      <a class="_link" href="{{ url_for('delete_item_page', item_id=item.id) }}">Delete Item</a>
+    </div>
+    {% endif %}
+  </div>
+  <div class="_details">
+    <h2>Description</h2>
+    <div class="_description">{{item.description}}</div>
+    <div>
+      <h3>Categories</h3>
+      <ul class="_categories_list">
+        {% for cat in item_categories %}
+        <li>{{cat.name}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+    
+</div>
+
+{% endblock %}
