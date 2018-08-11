@@ -74,6 +74,7 @@ main {
 }
 
 footer {
+  border-top: 1px solid #a5a5a2;
   padding: 10px;
   text-align: right;
 }

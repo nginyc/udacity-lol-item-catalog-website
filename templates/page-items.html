@@ -28,14 +28,17 @@
     display: block;
   }
 
-  .items_page ._add_item_box {
+  .items_page ._actions_box {
     padding: 12px 0;
+  }
+  
+  .items_page ._actions_box ._link {
+    display: block;
     font-weight: bold;
   }
 
   .items_page ._items_outer_box {
     flex: 1;
-    border: 1px solid #96732b;
     padding: 12px;
   }
 
@@ -80,11 +83,12 @@
         href="{{ url_for('items_page', category_id=cat.id) }}">{{cat.name}}</a>
       {% endfor %}
     </nav>
-    {% if user %}
-    <div class="_add_item_box">
-      <a href="{{ url_for('create_item_page') }}">Add Item</a>
+    <div class="_actions_box">
+      {% if user %}
+      <a class="_link" href="{{ url_for('create_item_page') }}">Add Item</a>
+      {% endif %}
+      <a class="_link" href="{{ url_for('items_json') }}">Get Items JSON</a>
     </div>
-    {% endif %}
   </div>
   <div class="_items_outer_box">
     <ul class="_items_box">

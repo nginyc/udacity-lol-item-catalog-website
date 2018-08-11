@@ -35,21 +35,6 @@ def inject_user():
     'user': user
   }
 
-@app.route('/json', methods=['GET'])
-def json():
-  db.connect()
-  users = db.session.query(User).all()
-  items = db.session.query(Item).all()
-  item_categories = db.session.query(ItemCategory).all()
-  item_to_item_category = db.session.query(ItemToItemCategory).all()
-  db.disconnect()
-  return jsonify({
-    'users': [x.serialize() for x in users],
-    'items': [x.serialize() for x in items],
-    'item_categories': [x.serialize() for x in item_categories],
-    'item_to_item_category': [x.serialize()  for x in item_to_item_category]
-  })
-
 @app.route('/', methods=['GET'])
 def index():
   return redirect(url_for('items_page'))
@@ -68,6 +53,18 @@ def items_page():
     items=items
   )
 
+@app.route('/items/json', methods=['GET'])
+def items_json():
+  category_id = request.args.get('category_id')
+  db.connect()
+  items, cat = get_items(db.session, category_id=category_id)
+  db.disconnect()
+
+  return jsonify({
+    'category': cat.serialize() if cat else None,
+    'items': [x.serialize() for x in items]
+  })
+  
 @app.route('/items/<int:item_id>', methods=['GET'])
 def item_page(item_id):
   db.connect()
@@ -78,6 +75,17 @@ def item_page(item_id):
     item_categories=item_categories,
     item=item
   )
+
+@app.route('/item/<int:item_id>/json', methods=['GET'])
+def item_json(item_id):
+  db.connect()
+  item, item_categories = get_item(db.session, item_id)
+  db.disconnect()
+
+  return jsonify({
+    'item_categories': [x.serialize() for x in item_categories],
+    'item': item.serialize()
+  })
 
 @app.route('/items/create', methods=['GET'])
 def create_item_page():

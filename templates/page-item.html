@@ -47,12 +47,13 @@
       <img src="{{item.image_url}}" />
     </div>
     {% endif %}
-    {% if user %}
     <div class="_actions_box">
+      <a class="_link" href="{{ url_for('item_json', item_id=item.id) }}">Get Item JSON</a>
+      {% if user %}
       <a class="_link" href="{{ url_for('update_item_page', item_id=item.id) }}">Edit Item</a>
       <a class="_link" href="{{ url_for('delete_item_page', item_id=item.id) }}">Delete Item</a>
+      {% endif %}
     </div>
-    {% endif %}
   </div>
   <div class="_details">
     <h2>Description</h2>
