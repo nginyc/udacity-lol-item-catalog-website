@@ -9,12 +9,12 @@ import string
 
 from config import GOOGLE_OAUTH_CLIENT_ID, \
     GOOGLE_OAUTH_CLIENT_SECRET, APP_SECRET, \
-    SQLITE_DB_URL
+    DB_URL
 from utils import upsert_user, get_item_categories, create_item, \
     get_items, get_item, delete_item, update_item, get_user
 from database import Database, User, Item, ItemCategory, ItemToItemCategory
 
-db = Database(SQLITE_DB_URL)
+db = Database(DB_URL)
 
 app = Flask(__name__)
 
