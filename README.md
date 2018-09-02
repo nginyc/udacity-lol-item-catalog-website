@@ -1,6 +1,6 @@
 # League of Legends Item Catalog
 
-This project builds a Flask web server that hosts a League of Legends Item Catalog website, backed by a SQLite database. Users can login with Google, add items, edit items & delete items.
+This project builds a Flask web server that hosts a League of Legends Item Catalog website, backed by a SQLite or PostgreSQL (choose one) database. Users can login with Google, add items, edit items & delete items.
 
 ![alt text](./static/images/screenshot.png "Screenshot of Website")
 
@@ -18,7 +18,7 @@ This project builds a Flask web server that hosts a League of Legends Item Catal
     GOOGLE_OAUTH_CLIENT_ID = <Google OAuth Client ID>
     GOOGLE_OAUTH_CLIENT_SECRET = <Google OAuth Client Secret>
     APP_SECRET = 'secret'
-    SQLITE_DB_URL = 'sqlite:///lol-item-catalog.db'
+    SQL_DB_URL = 'sqlite:///lol-item-catalog.db'
     ```
 
 4. `cd` to this project's directory and run:
