@@ -1,10 +1,10 @@
 from database import Database
 import json
-from config import SQLITE_DB_URL
+from config import DB_URL
 from utils import create_item_category_if_not_exists, \
     create_item_if_not_exists, get_item_categories
 
-db = Database(SQLITE_DB_URL)
+db = Database(DB_URL)
 db.setup()
 
 db.connect()
